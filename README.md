@@ -12,10 +12,12 @@ This course introduces biomedical students to AI.
 
 - Students will learn about AI, no code and low code tools. 
 - They will learn how to load data and quickly visualize it and derive results. 
-- They will also learn the basics of using large-language models (LLMs).
 - Basics statistics
+- They will also learn the basics of using large-language models (LLMs).
 - They will also learn prompt engineering
-- Responsible AI
+- Responsible AI/AI ethics
+- Rapid prototyping/HCI
+- Hackathons (such as creating a clinical chatbot)
 
 
 **Level:** Undergraduate/Postgraduate
@@ -34,22 +36,10 @@ Course content and materials can be found in the following files:
 - [Resources](materials/resources.md)
 - [Setup instructions](materials/setup.md)
 - [Installation guide](materials/installation.md)
-- [HTTP basics](materials/http.md)
-- [GET and POST methods](materials/get.md)
-- [HTML](materials/HTML.md)
-- [CSS fundamentals](materials/css_fundamentals.md)
-- [PHP basics](materials/php.md)
 - [Command line](materials/command_line.md)
-- [JavaScript](materials/javascript.md)
-- [SQL basics](materials/SQL.md)
-- [Database MySQL integration](materials/MySQL_integration.md)
-- [Cookies and Sessions](materials/cookies_sessions.md)
-- [ASP.NET introduction](materials/ASP.NET.md)
-- [Security](materials/security.md)
 - [HCI principles and universal accessibility](materials/HCI.md)
 - [Exams and quizzes](materials/exams_and_quizzes.md)
-- [Bonus materials](materials/history.md)
-
+- [Student Projects](materials/projects.md)
 <!--
 ### Instructor Information
  - [Extra information](materials/extra.md)
