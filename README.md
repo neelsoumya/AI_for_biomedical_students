@@ -1,16 +1,19 @@
 
 
-# Web Development with PHP, HTML & CSS
-## Undergraduate Course
+# AI for biomedical scientists
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ![Course Flyer](images/course_flyer.png)
 
 ### Course Overview
-This undergraduate course introduces students to full-stack web development using fundamental technologies: HTML5, CSS3, and PHP. Students will learn to build dynamic, database-driven websites from scratch.
 
-**Level:** Undergraduate
+This course introduces biomedical students to AI.
+
+Students will learn about AI, no code and low code tools. They will learn how to load data and quickly visualize it and derive results. They will also learn the basics of using large-language models (LLMs).
+
+
+**Level:** Undergraduate/Postgraduate
 **Prerequisites:** Basic programming knowledge (any language)  
 **Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
 
