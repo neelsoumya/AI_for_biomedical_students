@@ -13,7 +13,9 @@ This course introduces biomedical students to AI.
 - Students will learn about AI, no code and low code tools. 
 - They will learn how to load data and quickly visualize it and derive results. 
 - They will also learn the basics of using large-language models (LLMs).
+- Basics statistics
 - They will also learn prompt engineering
+- Responsible AI
 
 
 **Level:** Undergraduate/Postgraduate
