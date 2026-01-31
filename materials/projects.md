@@ -21,8 +21,11 @@ Modify the code below
 
    https://github.com/Sharday/Enhancing_patient_stratification_explainable_AI
 
-   https://github.com/JoshanParmar/TuneableCounterfactuals
    
+   - Call this counterfactual model (Joshan paper) and integrate and with a large-language model to get textual explanations
+
+   https://github.com/JoshanParmar/TuneableCounterfactuals
+      
 
 
 - Privacy preserving synthetic data
