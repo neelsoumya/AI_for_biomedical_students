@@ -10,6 +10,21 @@ Projects for students
 ### Explainable AI
 
 - Explainable mortality prediction
+
+Modify the code below
+
+   https://www.medrxiv.org/content/10.1101/2023.10.06.23296591v1
+
+   https://github.com/neelsoumya/complex_stories_explanations
+
+   https://www.medrxiv.org/content/10.1101/2024.03.25.24304824v1
+
+   https://github.com/Sharday/Enhancing_patient_stratification_explainable_AI
+
+   https://github.com/JoshanParmar/TuneableCounterfactuals
+   
+
+
 - Privacy preserving synthetic data
 
 ## Miscellaneous projects
