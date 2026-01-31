@@ -34,7 +34,7 @@ This course introduces biomedical students to AI.
 Course content and materials can be found in the following files:
 
 - [Content](materials/content.md)
-- [Resources](materials/resources.md)
+- [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Setup instructions](materials/setup.md)
 - [Command line](materials/command_line.md)
 - [HCI principles and universal accessibility](materials/HCI.md)
