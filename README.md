@@ -33,9 +33,9 @@ This course introduces biomedical students to AI.
 
 Course content and materials can be found in the following files:
 
+- [Content](materials/content.md)
 - [Resources](materials/resources.md)
 - [Setup instructions](materials/setup.md)
-- [Installation guide](materials/installation.md)
 - [Command line](materials/command_line.md)
 - [HCI principles and universal accessibility](materials/HCI.md)
 - [Exams and quizzes](materials/exams_and_quizzes.md)
