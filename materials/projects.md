@@ -7,6 +7,24 @@ Projects for students
 - Rapid prototyping/HCI
 - Hackathons (such as creating a clinical chatbot)
 
+### Explainable AI
+
+- Explainable mortality prediction
+- Privacy preserving synthetic data
+
+## Miscellaneous projects
+
+- LLM-based Clinical Data Imputation and LLM powered clinical aid
+- Responsible AI/ AI safety for healthcare/ governance frameworks
+- Patient and public involvement/HCI frameworks
+
+## Higher level projects
+- Healthcare foundation models that learn from longitudinal EHRs, clinical text, and multimodal data (such as genomic data). 
+- Benchmarking and evaluation for healthcare AI
+- Biomedical scientific agents
+
+Application areas can be any field of medicine such as oncology, cardiovascular, infectious diseases, etc.
+
 
 ### Responsible AI
 
