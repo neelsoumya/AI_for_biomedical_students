@@ -2,6 +2,46 @@
 
 > A short, practical course to familiarise medics and biomedical scientists (advanced undergrads & MSc students) with contemporary AI models, prompt engineering, and simple prototype building using no-code and low-code tools.
 
+### Course Overview
+
+This course introduces biomedical students to AI.
+
+- Students will learn about AI, no code and low code tools. 
+- They will learn how to load data and quickly visualize it and derive results. 
+- Basics statistics
+- They will also learn the basics of using large-language models (LLMs).
+- They will also learn prompt engineering
+- Responsible AI/AI ethics
+- Rapid prototyping/HCI
+- Hackathons (such as creating a clinical chatbot)
+
+
+**Level:** Undergraduate/Postgraduate
+**Prerequisites:** Basic programming knowledge (any language)  
+**Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
+
+**Course Instructor:** Soumya Banerjee
+
+**Course Website:** [https://neelsoumya.github.io/teaching_web_development/](https://neelsoumya.github.io/teaching_web_development/)
+
+
+### Course Materials
+
+Course content and materials can be found in the following files:
+
+- [Content](materials/content.md)
+- [Resources](materials/resources.md)
+- [Setup instructions](materials/setup.md)
+- [Command line](materials/command_line.md)
+- [HCI principles and universal accessibility](materials/HCI.md)
+- [Exams and quizzes](materials/exams_and_quizzes.md)
+- [Student Projects](materials/projects.md)
+<!--
+### Instructor Information
+ - [Extra information](materials/extra.md)
+-->
+
+
 ---
 
 ## Course summary (target: MSc / advanced undergrads)
