@@ -39,25 +39,11 @@ Course content and materials can be found in the following files:
 - [Setup instructions](materials/setup.md)
 - [HCI principles and universal accessibility](materials/HCI.md)
 - [Student Projects](materials/projects.md)
-<!--
-- [Command line](materials/command_line.md)s
-- [Exams and quizzes](materials/exams_and_quizzes.md)
--->
-<!--
-### Instructor Information
- - [Extra information](materials/extra.md)
--->
 
 
 ### Learning Objectives
 
 By the end of this course, students will be able to:
-- Create semantic, accessible HTML5 documents
-- Design responsive layouts using modern CSS3 techniques
-- Develop server-side applications with PHP
-- Implement CRUD operations with MySQL databases
-- Build secure web applications following best practices
-- Deploy and maintain web applications
 
 ### Course Structure
 
