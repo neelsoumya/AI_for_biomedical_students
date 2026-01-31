@@ -4,7 +4,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![Course Flyer](images/course_flyer.png)
+![Course Flyer](images/cover_image.png)
 
 ### Course Overview
 
@@ -26,7 +26,7 @@ This course introduces biomedical students to AI.
 
 **Course Instructor:** Soumya Banerjee
 
-**Course Website:** [https://neelsoumya.github.io/teaching_web_development/](https://neelsoumya.github.io/teaching_web_development/)
+**Course Website:** [https://neelsoumya.github.io/AI_for_biomedical_students/](https://neelsoumya.github.io/AI_for_biomedical_students/)
 
 
 ### Course Materials
