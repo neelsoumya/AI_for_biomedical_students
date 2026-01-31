@@ -37,10 +37,10 @@ Course content and materials can be found in the following files:
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
 - [Setup instructions](materials/setup.md)
-- [Command line](materials/command_line.md)
 - [HCI principles and universal accessibility](materials/HCI.md)
 - [Student Projects](materials/projects.md)
 <!--
+- [Command line](materials/command_line.md)s
 - [Exams and quizzes](materials/exams_and_quizzes.md)
 -->
 <!--
