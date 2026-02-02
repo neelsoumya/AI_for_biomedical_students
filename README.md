@@ -36,6 +36,8 @@ Course content and materials can be found in the following files:
 - [Content](materials/content.md)
 - [Setup instructions](materials/setup.md)
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
+- Basics of coding (R)
+- NHS data
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
 - [Data analysis in R and Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
