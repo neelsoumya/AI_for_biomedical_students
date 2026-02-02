@@ -39,11 +39,12 @@ Course content and materials can be found in the following files:
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
 - [Data analysis in R and Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
-- [Basics of unsupervised machine learning using animations and widgets](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data)
-- [Basics of supervised machine learning](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#example)
+- [Basics of unsupervised machine learning using animations and widgets](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data) and [PCA in your browser](https://projector.tensorflow.org/) and [visual explanations of PCA](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#visual-explanations-of-pca)
+- [Basics of supervised machine learning](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#example) 
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
 - [HCI principles and how to prototype](materials/HCI.md)
+- AI ethics
 - [Student Projects](materials/projects.md)
 
 
