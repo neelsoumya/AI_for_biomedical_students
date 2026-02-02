@@ -39,7 +39,9 @@ Course content and materials can be found in the following files:
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
 - [Data analysis in R and Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
-- [HCI principles and universal accessibility](materials/HCI.md)
+- [Prompt engineering](materials/prompt_engineering.md)
+- [No code tools](materials/nocodetools.md)
+- [HCI principles and how to prototype](materials/HCI.md)
 - [Student Projects](materials/projects.md)
 
 
