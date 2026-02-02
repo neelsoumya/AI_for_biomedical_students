@@ -7,6 +7,9 @@ Projects for students
 - Rapid prototyping/HCI
 - Hackathons (such as creating a clinical chatbot)
 
+- See the following for some [hackathon ideas using LLMs](https://github.com/neelsoumya/intro_to_LMMs?tab=readme-ov-file#project-and-hackathon)
+
+
 ### Explainable AI
 
 - Explainable mortality prediction
