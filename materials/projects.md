@@ -47,6 +47,11 @@ Streamlit
 
 https://docs.science.ai.cam.ac.uk/large-language-models/streamlit/
 
+### Dashboards
+
+- Dashboards and visualizations for visualizing AI risk holistically (Global South). Integrate risk from various sources (climate, geopolitical, financial, etc.)
+- Chatbots to create AI healthcare strategies for the Global South
+
 ### Explainable AI
 
 - Explainable mortality prediction
