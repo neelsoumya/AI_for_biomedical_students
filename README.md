@@ -12,7 +12,7 @@ This course introduces biomedical students to AI.
 
 - Students will learn about AI, no code and low code tools. 
 - They will learn how to load data and quickly visualize it and derive results. 
-- Basics statistics
+- Basics statistics and mathematical underpinnings.
 - They will also learn the basics of using large-language models (LLMs).
 - They will also learn prompt engineering
 - Responsible AI/AI ethics
@@ -34,9 +34,11 @@ This course introduces biomedical students to AI.
 Course content and materials can be found in the following files:
 
 - [Content](materials/content.md)
+- [Setup instructions](materials/setup.md)
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
-- [Setup instructions](materials/setup.md)
+- [Data analysis in R and Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
+- [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
 - [HCI principles and universal accessibility](materials/HCI.md)
 - [Student Projects](materials/projects.md)
 
@@ -44,6 +46,11 @@ Course content and materials can be found in the following files:
 ### Learning Objectives
 
 By the end of this course, students will be able to:
+- Create semantic, accessible HTML5 documents
+- Design responsive layouts using modern CSS3 techniques
+- Develop server-side applications with PHP
+- Build secure web applications following best practices
+- Deploy and maintain web applications
 
 ### Course Structure
 
@@ -96,17 +103,10 @@ By the end of this course, students will be able to:
 - [Setup instructions](materials/setup.md)
 - [Installation guide](materials/installation.md)
 - Text Editor (VS Code recommended)
-- XAMPP or MAMP (local development environment)
-- Modern web browser (Chrome/Firefox with DevTools)
 - Git for version control
 
 ### Recommended Resources
 
-- [Dr. Chuck's PHP Course](https://www.wa4e.com/lessons): A comprehensive course on PHP programming available on YouTube.
-
-- [Dr. Chuck's Web Development Course on YouTube](https://www.youtube.com/watch?v=tuXySrvw8TE&list=PLlRFEj9H3Oj7FHbnXWviqQt0sKEK_hdKX): A playlist of free video lectures covering web programming concepts.
-
-- [W3Schools](https://www.w3schools.com): A comprehensive resource for learning web technologies including HTML, CSS, and PHP.
 
 <!--
 ### Course Files
@@ -125,5 +125,4 @@ By the end of this course, students will be able to:
 ### Instructor Information
 - Name: Soumya Banerjee
 - Email: [neel.soumya@gmail.com]
-- [DeepWiki](https://deepwiki.com/neelsoumya/teaching_web_development)
 - Website: [Webpage](https://neelsoumya.github.io/)
