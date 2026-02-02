@@ -9,6 +9,43 @@ Projects for students
 
 - See the following for some [hackathon ideas using LLMs](https://github.com/neelsoumya/intro_to_LMMs?tab=readme-ov-file#project-and-hackathon)
 
+Code to perform CFD and solve ARC tasks
+https://github.com/neelsoumya/CFD_LLM_Accelerate24
+
+https://github.com/neelsoumya/hands-on-llms/blob/main/Notebooks/arc_solver.ipynb
+
+Code to create a healthcare AI chatbot
+https://github.com/neelsoumya/LLM-Handon
+
+Code to use science-fiction to re-envision AI using LLMs
+https://github.com/neelsoumya/science_fiction_LLM
+
+https://github.com/neelsoumya/science_fiction_AI_LLM
+
+Code for using science-fiction and LLMs to re-envision life as we do not know it
+https://github.com/neelsoumya/science_fiction_life_LLM
+
+Code to create a deepresearch tool for stock market and portfolio analysis
+https://github.com/neelsoumya/stock_portfolio_LLM_agent
+
+Code to create a deepresearch tool to analyzing national AI strategies of different countries
+https://github.com/neelsoumya/intro_to_LMMs/blob/main/deep_research_agent_ag2_nationalAI_strategy.ipynb
+
+Code for open source LLM for probing superintelligence (model organism of misalignment).
+https://github.com/neelsoumya/intro_to_LMMs/blob/main/L2_NLP_transformers.ipynb
+
+Coding agents using smolagents
+https://github.com/neelsoumya/intro_to_LMMs/tree/main/agents/smolagents/L3
+
+https://github.com/neelsoumya/intro_to_LMMs/blob/main/agents/smolagents/L3/Lesson3.ipynb
+
+Other LLM projects
+https://github.com/neelsoumya/llm_projects
+
+User interfaces
+Streamlit
+
+https://docs.science.ai.cam.ac.uk/large-language-models/streamlit/
 
 ### Explainable AI
 
