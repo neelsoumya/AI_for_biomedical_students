@@ -46,7 +46,7 @@ Course content and materials can be found in the following files:
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
 - [HCI principles and how to prototype](materials/HCI.md)
-- AI ethics
+- [AI ethics](https://github.com/neelsoumya/AI_safety_teaching_resources)
 - [Student Projects](materials/projects.md)
 
 
