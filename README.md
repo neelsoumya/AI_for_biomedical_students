@@ -39,6 +39,7 @@ Course content and materials can be found in the following files:
 - Basics of coding (R)
 - NHS data
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
+- [Gestalt and semiotics of data visualization](https://neelsoumya.github.io/visualization_lecture/gestalt_theory.html)
 - [Data analysis in R and Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
 - [Basics of unsupervised machine learning using animations and widgets](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data) and [PCA in your browser](https://projector.tensorflow.org/) and [visual explanations of PCA](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#visual-explanations-of-pca)
