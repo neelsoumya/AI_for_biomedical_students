@@ -36,7 +36,7 @@ Course content and materials can be found in the following files:
 - [Content](materials/content.md)
 - [Setup instructions](materials/setup.md)
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
-- Basics of coding (R/Python)
+- [Basics of coding (R/Python)](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#python-basics)
 - [NHS and electronic healthcare records data](https://cambiotraining.github.io/ml-unsupervised/materials/applications.html#sec-exr_title_EHR)
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
 - [Gestalt and semiotics of data visualization](https://neelsoumya.github.io/visualization_lecture/gestalt_theory.html)
