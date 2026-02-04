@@ -4,6 +4,17 @@ Projects for students
 
 ## Project ideas
 
+- Dashboards and visualizations for visualizing AI risk holistically (Global South). Integrate risk from various sources (climate, geopolitical, financial, etc.)
+- Chatbots to create AI healthcare strategies for the Global South. These would be Small Language Models (SLMs). Use `Unsloth` to build an SLM.
+
+- Unsloth (via Google Colab)
+
+- [Tutorial on Unsloth](https://unsloth.ai/docs/get-started/install/google-colab)
+
+- [Tutorial on using Unsloth to finetune](https://www.youtube.com/watch?v=iAlAWRVAiCg)
+
+- Stick to **Llama-3.2 (1B/3B)** or **Phi-3.5-Mini**. They are incredibly smart for their tiny size.
+
 - Rapid prototyping/HCI
 - Hackathons (such as creating a clinical chatbot)
 
@@ -50,7 +61,14 @@ https://docs.science.ai.cam.ac.uk/large-language-models/streamlit/
 ### Dashboards
 
 - Dashboards and visualizations for visualizing AI risk holistically (Global South). Integrate risk from various sources (climate, geopolitical, financial, etc.)
-- Chatbots to create AI healthcare strategies for the Global South
+- Chatbots to create AI healthcare strategies for the Global South. These would be Small Language Models (SLMs). Use `Unsloth` to build a SLM.
+
+- Unsloth (via Google Colab)
+
+- [Tutorial on Unsloth](https://unsloth.ai/docs/get-started/install/google-colab)
+
+- [Tutorial on using Unsloth to finetune](https://www.youtube.com/watch?v=iAlAWRVAiCg)
+
 
 ### Explainable AI
 

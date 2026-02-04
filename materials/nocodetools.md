@@ -1,5 +1,12 @@
 # No-Code AI Tools for Biomedical Scientists
 
+No code tools.
+
+- Unsloth (via Google Colab)
+
+- [Tutorial on Unsloth](https://unsloth.ai/docs/get-started/install/google-colab)
+
+- [Tutorial on using Unsloth to finetune](https://www.youtube.com/watch?v=iAlAWRVAiCg)
 
 ---
 
