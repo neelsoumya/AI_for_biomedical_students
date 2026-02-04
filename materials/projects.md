@@ -15,6 +15,8 @@ Projects for students
 
 - Stick to **Llama-3.2 (1B/3B)** or **Phi-3.5-Mini**. They are incredibly smart for their tiny size.
 
+- [Kakugo: Small language models for low resource languages](https://arxiv.org/pdf/2601.14051)
+
 - Rapid prototyping/HCI
 - Hackathons (such as creating a clinical chatbot)
 
