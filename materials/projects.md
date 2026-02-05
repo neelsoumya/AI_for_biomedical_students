@@ -60,6 +60,10 @@ Streamlit
 
 https://docs.science.ai.cam.ac.uk/large-language-models/streamlit/
 
+### Data
+
+[NHS data](https://cambiotraining.github.io/ml-unsupervised/materials/applications.html#sec-exr_title_EHR)
+
 ### Dashboards
 
 - Dashboards and visualizations for visualizing AI risk holistically (Global South). Integrate risk from various sources (climate, geopolitical, financial, etc.)
