@@ -47,6 +47,7 @@ Course content and materials can be found in the following files:
 - [Basics of supervised machine learning](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#example) 
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
+- [Large language models (LLMs)](https://docs.science.ai.cam.ac.uk/hands-on-llms/)
 - [HCI principles and how to prototype](materials/HCI.md)
 - [AI ethics](https://github.com/neelsoumya/AI_safety_teaching_resources)
 - [Student Projects](materials/projects.md)
