@@ -1,260 +1,394 @@
 
 # Installation
 
-# HTML
+## Workshop Attendees
 
-- [w3schools HTML playground](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic): online HTML editor to practice HTML/CSS.
-
-- [jsfiddle.net](https://jsfiddle.net/): Online editor for HTML, CSS, and JavaScript with live preview.
-
-- [codepen.io](https://codepen.io/): Social development environment for front-end designers and developers.
-
-- [replit.com](https://replit.com/languages/html): Online IDE supporting multiple programming languages, including HTML/CSS/JS.
+If you are attending one of our workshops, you can use Google Colab to run all the code. If you want to setup your own computer to run the analysis demonstrated on this course, you can follow the instructions below.
+:::
+<!-- end callout -->
 
 
-# Installing PHP on macOS
+## Data
 
-- Best Option
+The data used in these materials is provided as a zip file. 
+Download and unzip the folder to your Desktop to follow along with the materials.
 
-- [MAMP](https://www.mamp.info/en/downloads/) is a popular choice for macOS, bundling Apache, MySQL, and PHP. However, for simplicity and ease of use, we recommend using **Homebrew** to install PHP directly.
+<!-- Note for Training Developers: add the link to 'href' -->
+<a href="https://github.com/cambiotraining/ml-unsupervised/raw/refs/heads/main/course_files/data/data.zip">
+  <button class="btn"><i class="fa fa-download"></i> Download</button>
+</a>
 
-- Start MAMP and navigate to `http://localhost:8888` to verify the installation.
+Alternatively you can use the link below to download the data from Google Drive:
 
-- [MAMP localhost](http://localhost:8888/MAMP/?language=English) shows the MAMP welcome page.
-
-
-# Installing web development tools
-
-- [Chris Pederick's Web Developer Extension](https://chrispederick.com/work/web-developer/): A browser extension that adds various web development tools.
-
-
-
-
-
-# Other options
+<!-- Note for Training Developers: add the link to 'href' -->
+<a href="https://drive.google.com/drive/folders/1c8fYDr7ab1jUx0FwOR4NZa9RfgzZN9OQ?usp=sharing">
+  <button class="btn"><i class="fa fa-download"></i> Download</button>
+</a>
 
 
-* If you want the **fastest, lowest-friction** route for beginners, use an all-in-one local AMP stack (XAMPP on Windows/Linux, MAMP on macOS/Windows, or Laragon on Windows). These install Apache, PHP and MariaDB/MySQL in a few clicks and are easy for labs. ([apachefriends.org][1])
+## Software
 
-[XAMPP](https://sourceforge.net/projects/xampp/)
+### 📦 Installation Instructions (for Google Colab)
 
-* If you want a **more modern, reproducible** setup that matches server environments and is useful later in the degree, use Docker (PHP-FPM + Nginx + MariaDB). Docker makes the environment identical across student laptops. ([Docker Documentation][2])
-* Use **Composer** for any dependency management / autoloading so students learn modern PHP practices early. ([getcomposer.org][3])
-* Teach debugging with **Xdebug** + VS Code (breakpoints, step-through) — it’s much more effective than print debugging. ([xdebug.org][4])
-* Teach with a current PHP stable (PHP 8.x at time of writing). Check the PHP site periodically for the exact recommended version. ([PHP][5])
-
----
-
-# Option A — Beginner (recommended for first lab week)
-
-**Tools:** XAMPP (Windows/Linux/macOS) or MAMP (macOS/Windows) or Laragon (Windows)
-**Good for:** quick start, no Docker knowledge required.
-
-Steps (students):
-
-1. Download & install XAMPP / MAMP / Laragon. Start Apache & MySQL from the control panel. ([apachefriends.org][1])
-2. Put project files in the web folder:
-
-   * XAMPP: `C:\xampp\htdocs\yourproject` (Windows) or `/opt/lampp/htdocs/` (Linux)
-   * MAMP: `/Applications/MAMP/htdocs/` (macOS)
-   * Laragon: `C:\laragon\www\yourproject`
-3. Open `http://localhost/yourproject` in the browser.
-4. Use phpMyAdmin (bundled) to create a database for labs.
-
-*When to use:* first 2–3 weeks (HTML, simple PHP scripts, forms, GET/POST, simple DB CRUD).
-
----
-
-# Option B — Modern / reproducible (recommended for course staff and advanced labs)
-
-**Tools:** Docker + docker-compose (students will need Docker Desktop or Docker Engine)
-**Good for:** reproducible environment, matching production, group projects.
-
-Here’s a minimal `docker-compose.yml` you can give students to run a PHP + Nginx + MariaDB stack:
-
-```yaml
-version: "3.8"
-services:
-  web:
-    image: php:8.2-fpm
-    container_name: php-fpm
-    volumes:
-      - ./www:/var/www/html
-      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
-    depends_on:
-      - db
-
-  nginx:
-    image: nginx:stable
-    ports:
-      - "8080:80"
-    volumes:
-      - ./www:/var/www/html
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-    depends_on:
-      - web
-
-  db:
-    image: mariadb:10.11
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpw
-      MYSQL_DATABASE: class_db
-    volumes:
-      - db_data:/var/lib/mysql
-
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    environment:
-      PMA_HOST: db
-    ports:
-      - "8081:80"
-    depends_on:
-      - db
-
-volumes:
-  db_data:
+<!--
+>
+### 1. Clone the repository (optional, for full access)
+```python
+!git clone https://github.com/neelsoumya/python_machine_learning.git
+%cd python_machine_learning
 ```
 
-(Students place their PHP files under `./www` and visit `http://localhost:8080`.) For a more complete Docker teaching guide see Docker’s PHP development docs. ([Docker Documentation][2])
+### 2. Install required Python packages
 
----
 
-# Editor & tooling (what I recommend for teaching)
-
-* **Visual Studio Code** — lightweight, cross-platform, great extensions and a good student experience. (Teach the basics of the editor in the first session.) ([Visual Studio Code][6])
-* VS Code extensions:
-
-  * **Intelephense** (IntelliSense for PHP)
-  * **PHP Debug** (connects to Xdebug)
-  * **PHP CS Fixer / phpcs** (optional: coding style)
-  * **Live Server** (for HTML/CSS static previews)
-    (Show students how to install extensions from the Extensions view.)
-* **Composer** — teach `composer init`, `composer require`, and PSR-4 autoloading early. ([getcomposer.org][3])
-* **Xdebug** — set up for breakpoints and step debugging in VS Code. Explain common config values (remote_enable, client_host, client_port). ([xdebug.org][4])
-
----
-
-# Minimal file examples (copy-paste into student projects)
-
-`www/index.php`
-
-```php
-<?php
-// index.php - simple safe DB example using PDO
-require_once __DIR__.'/config.php';
-
-try {
-    $pdo = new PDO($DB_DSN, $DB_USER, $DB_PASS, [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    ]);
-} catch (Exception $e) {
-    echo "DB connection error.";
-    exit;
-}
-
-// Simple prepared statement (prevents SQL injection)
-$stmt = $pdo->prepare('SELECT id, name, email FROM users LIMIT 10');
-$stmt->execute();
-$users = $stmt->fetchAll();
-?>
-<!doctype html>
-<html>
-<head><meta charset="utf-8"><title>Class demo</title></head>
-<body>
-  <h1>Users</h1>
-  <ul>
-    <?php foreach ($users as $u): ?>
-      <li><?= htmlspecialchars($u['name']) ?> — <?= htmlspecialchars($u['email']) ?></li>
-    <?php endforeach; ?>
-  </ul>
-</body>
-</html>
+```python
+!pip install numpy pandas keras tensorflow scikit-learn seaborn matplotlib scanpy
 ```
 
-`www/config.php`
+or
 
-```php
-<?php
-// config.php - simple credentials for local development
-$DB_DSN  = 'mysql:host=db;dbname=class_db;charset=utf8mb4'; // for Docker example
-$DB_USER = 'root';
-$DB_PASS = 'rootpw';
+```python
+!pip install -r requirements.txt
 ```
 
-(If using XAMPP/MAMP put `host=localhost` and DB creds accordingly.)
+
+### 3. (Optional) Download specific files directly from GitHub
+```python
+# Example: Download a specific notebook
+!wget https://raw.githubusercontent.com/neelsoumya/python_machine_learning/main/PCA_movie_ratings.ipynb
+```
 
 ---
 
-# Security & best practices to teach early (one slide each)
+-->
 
-* Never interpolate raw input into SQL — use **prepared statements** (PDO).
-* Escape output with `htmlspecialchars()` when printing HTML.
-* Use `password_hash()` / `password_verify()` for passwords.
-* Validate + sanitize form input on the server (don’t rely on the browser).
-* Explain the basics of CSRF and introduce CSRF tokens for forms later.
+**How to use in Colab:**
 
----
+- Open a new notebook in [Google Colab](https://colab.research.google.com/)
 
-# Short 6-week mini-syllabus & lab ideas (for 1st year)
+- If you want to run the notebooks in Colab, you can also use the _Open in Colab_ badge below:
 
-Week 1 — HTML & CSS basics, browser devtools, file structure (MDN + small static page). ([MDN Web Docs][7])
-Week 2 — Intro PHP: echo, variables, control flow, embedding PHP in HTML (php.net simple tutorial). ([PHP][8])
-Week 3 — Forms, GET/POST, basic validation, and XSS prevention.
-Week 4 — Databases: MySQL/MariaDB basics (use phpMyAdmin), CRUD with PDO prepared statements.
-Week 5 — Sessions, login/logout, `password_hash`, simple auth flow.
-Week 6 — Small group project: a simple “student directory” web app (create/read/update/delete and search).
-
-Each lab should include a short spec, starter repo (or zip) and an automated test or checklist (staff can review with a rubric).
-
----
-
-# Assignments / assessment ideas
-
-* **Practical quiz:** small tasks in a live environment (create a form, save to DB, display results).
-* **Code review:** students submit a PR and peers + staff review security & style.
-* **Mini project:** 2–3 week group project with a short report and demo.
-
----
-
-# Teaching materials & student resources (good, up-to-date sources)
-
-* **PHP Manual (official)** — comprehensive reference and tutorials. ([PHP][9])
-* **MDN Learn (HTML/CSS)** — excellent beginner tutorials and explanations. ([MDN Web Docs][7])
-* **freeCodeCamp HTML/CSS tutorials** — approachable tutorials & videos for beginners. ([FreeCodeCamp][10])
-* **Laracasts** (PHP for Beginners) — short video series, very clear for newcomers. ([Laracasts][11])
-* **Composer docs** — how to install and use Composer. ([getcomposer.org][3])
-* **Xdebug docs** — installation & usage. ([xdebug.org][4])
-* **Docker official guide for PHP** — good for introducing containerized dev. ([Docker Documentation][2])
-
-(If you want a printable reading list / slide deck I can produce one now — say “Make me a 1-page student handout” and I’ll generate it.)
-
----
-
-# Practical checklist for first session (copy to a lab sheet)
-
-1. Install XAMPP / MAMP / Laragon **or** Docker Desktop. (Give both options.) ([apachefriends.org][1])
-2. Install VS Code and the recommended extensions. ([Visual Studio Code][6])
-3. Start Apache/PHP + MySQL (or `docker-compose up`) and open `http://localhost`.
-4. Clone starter repo or unpack starter zip into `www` folder.
-5. Run through “Hello PHP” page -> explain `<?php ?>` tags and server output.
-
----
-
-# Resources
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
 
 
-[1]: https://www.apachefriends.org/download.html?utm_source=chatgpt.com "Download XAMPP"
-[2]: https://docs.docker.com/guides/php/develop/?utm_source=chatgpt.com "Use containers for PHP development"
-[3]: https://getcomposer.org/doc/00-intro.md?utm_source=chatgpt.com "Introduction"
-[4]: https://xdebug.org/docs/install?utm_source=chatgpt.com "Xdebug: Documentation » Installation"
-[5]: https://www.php.net/?utm_source=chatgpt.com "PHP"
-[6]: https://code.visualstudio.com/docs/languages/php?utm_source=chatgpt.com "PHP in Visual Studio Code"
-[7]: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content?utm_source=chatgpt.com "Structuring content with HTML - Learn web development | MDN"
-[8]: https://www.php.net/manual/en/tutorial.php?utm_source=chatgpt.com "A simple tutorial - Manual"
-[9]: https://www.php.net/manual/en/index.php?utm_source=chatgpt.com "PHP: PHP Manual - Manual"
-[10]: https://www.freecodecamp.org/news/html-crash-course/?utm_source=chatgpt.com "HTML for Beginners"
-[11]: https://laracasts.com/series/php-for-beginners-2023-edition?utm_source=chatgpt.com "PHP For Beginners"
+- Run the commands in code cells.
+
+- You can now create notebooks and run any of the scripts in Google Colab.
 
 
-- [Next: Installation](installation.md)
+**Repository link:**  
+[https://cambiotraining.github.io/ml-unsupervised/](https://cambiotraining.github.io/ml-unsupervised/)
+
+
+* (Optional) In order to access the files on your computer, you can save them to your Google Drive (in a directory named `data`) and mount the drive in Colab. Open a new Google Colab notebook. Then create a new code cell and type the following commands (and then click the play button to run the cell):
+
+```python
+from google.colab import drive
+import os
+import pandas as pd
+
+drive.mount('/content/drive')
+os.chdir('/content/drive/My Drive/data')
+
+pd.read_csv('diabetes_sample_data.csv')
+```
+
+* Google Colab will ask you to authenticate your Google account the first time you run the `drive.mount()` command. 
+  Follow the instructions in the output cell to complete the authentication process. You will need a gmail account or you can use your cam.ac.uk account. Some screenshots are shown below to guide you through the process:
+
+![Colab Authentication Step 1](images/colab_1.png)
+
+![Colab Authentication Step 2](images/colab_2.png)
+
+![Colab Authentication Step 3](images/colab_3.png)
+
+* If you have your files in a different directory, please change the path in the `os.chdir()` command above accordingly.
+
+* [A template notebook](https://github.com/cambiotraining/ml-unsupervised/blob/main/course_files/data/teaching.ipynb) is also available to get you started.
+
+* Google Colab comes with most of the required packages pre-installed. 
+  If you need to install any additional packages, you can do so using the `!pip install package-name` command in a code cell.
+
+* Create a new folder named `data` in the `My Drive` folder. Download the data files and and copy the files into the `data` folder (if you want to access the files from Colab). Your directory structure should look like this:
+
+```
+My Drive/
+└─ data/
+```
+
+
+* (Optional) You can also follow the instructions below to setup from the browser.
+
+* Open a new [Google Colab notebook](https://colab.research.google.com/).
+
+![Step 1](images/step1_browser.png)
+
+* Click on the folder icon on the left-hand side to open the file explorer.
+
+![Step 2](images/step2_browser.png)
+
+* Right-click and then mount your Google Drive and then click on the `Run this cell` button.
+
+![Step 3](images/step3_browser.png)
+
+* Create a new folder named `data` in the `My Drive` folder. Then upload the data files into the `data` folder.
+
+![Step 4](images/step4_browser.png)
+
+
+
+<!--
+### (Optional) Setup from the browser {#browser-setup-instructions}
+-->
+
+
+<!--
+
+### Quarto
+
+To develop and render the course materials website, you will need to install _Quarto_:
+
+- Download and install [Quarto](https://quarto.org/docs/get-started/) (available for all major OS). 
+- If you are developing materials using executable `.qmd` documents, it is recommended that you also install the extensions for your favourite IDE (e.g. RStudio, VS Code).
+- If you are developing materials using **JupyterLab** or **Jupyter Notebooks**, please install [Jupytext](https://jupytext.readthedocs.io/en/latest/install.html).
+  - Use the [paired notebook](https://jupytext.readthedocs.io/en/latest/paired-notebooks.html) feature to have synchronised `.ipynb`/`.qmd` files. Only `.qmd` files should be pushed to the repository (`.ipynb` files have been added to `.gitignore`).
+
+-->
+
+<!--
+### R and RStudio
+
+::: {.tabset group="os"}
+
+#### Windows
+
+Download and install all these using default options:
+
+- [R](https://cran.r-project.org/bin/windows/base/release.html)
+- [RTools](https://cran.r-project.org/bin/windows/Rtools/)
+- [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+#### Mac OS
+
+Download and install all these using default options:
+
+- [R](https://cran.r-project.org/bin/macosx/)
+- [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+#### Linux
+
+- Go to the [R installation](https://cran.r-project.org/bin/linux/) folder and look at the instructions for your distribution.
+- Download the [RStudio](https://www.rstudio.com/products/rstudio/download/#download) installer for your distribution and install it using your package manager.
+
+:::
+-->
+
+
+<!--
+### Conda
+
+Open a terminal and run:
+
+```bash
+wget -q -O - https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh -b
+rm Miniconda3-latest-Linux-x86_64.sh
+conda init
+conda config --add channels defaults; conda config --add channels bioconda; conda config --add channels conda-forge; conda config --set channel_priority strict
+conda install -y mamba
+```
+
+Note: Windows users can use WSL2 (see @wsl).
+-->
+
+<!--
+### Singularity
+
+::: {.panel-tabset group="os"}
+
+#### Windows
+
+You can use _Singularity_ from the _Windows Subsystem for Linux_ (see @wsl).  
+Once you setup WSL, you can follow the instructions for Linux.
+
+#### Mac OS
+
+Singularity is [not available for Mac OS](https://docs.sylabs.io/guides/3.0/user-guide/installation.html#install-on-windows-or-mac).
+
+#### Linux
+
+These instructions are for _Ubuntu_ or _Debian_-based distributions[^1].
+
+[^1]: See the [Singularity documentation page](https://docs.sylabs.io/guides/3.0/user-guide/installation.html#install-on-linux) for other distributions.
+
+```bash
+sudo apt update && sudo apt upgrade && sudo apt install runc
+CODENAME=$(lsb_release -c | sed 's/Codename:\t//')
+wget -O singularity.deb https://github.com/sylabs/singularity/releases/download/v3.10.2/singularity-ce_3.10.2-${CODENAME}_amd64.deb
+sudo dpkg -i singularity.deb
+rm singularity.deb
+```
+
+:::
+-->
+
+
+### (Optional) Run locally {#python-setup-instructions}
+
+* Install Python (we recommend using [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) to manage your Python environment).
+
+
+* Install Visual Studio Code (see below) or [Spyder](https://www.spyder-ide.org/).
+
+<!--
+* Download the [material](https://github.com/cambiotraining/ml-unsupervised/archive/refs/heads/main.zip) or from an alternative link [here](https://drive.google.com/drive/folders/1c8fYDr7ab1jUx0FwOR4NZa9RfgzZN9OQ?usp=sharing) or clone the repository (optional, for full access)
+
+-->
+
+<!--
+```bash
+git clone https://github.com/cambiotraining/ml-unsupervised
+```
+-->
+
+Download the data folder from the link [here](https://drive.google.com/drive/folders/1c8fYDr7ab1jUx0FwOR4NZa9RfgzZN9OQ?usp=sharing) or unzip the file [here](https://github.com/cambiotraining/ml-unsupervised/raw/refs/heads/main/course_files/data/data.zip) and save it on your computer.
+
+* In Terminal/Command Prompt, navigate to the folder in which you save the `data` folder. Then change directory to the `data` folder: 
+
+```bash
+cd data
+```
+
+<!-- 
+```bash
+cd ml-unsupervised/course_files/data
+```
+-->
+
+* (Optional) Setup a virtual environment
+
+```bash
+python3 -m venv .venv
+```
+
+* Activate the virtual environment
+
+  - On Windows (in Command Prompt):
+
+  ```cmd
+  .venv\Scripts\activate
+  ```
+
+  - On MacOS/Linux:
+
+  ```bash
+  source .venv/bin/activate
+  ```  
+
+* Install required Python packages
+
+```python
+pip install numpy pandas scikit-learn seaborn matplotlib scanpy pca
+```
+
+
+* If you have a local Python installation (see above), you can also run the scripts there (see instructions below). This assumes that you have downloaded and unzipped the data folder to your computer (in a folder called `data`) and that you have installed the required packages (see above).
+
+Your directory structure should look like this:
+
+```
+data/
+└─ 
+
+```
+
+```python
+import os
+
+# where are we?
+print( os.getcwd() )
+
+# change directory to where the data is stored
+os.chdir('data/')
+
+# where are we now?
+print( os.getcwd() )
+```
+
+
+<!--
+or
+
+```python
+pip install -r requirements.txt
+```
+-->
+
+* [A template Python script](https://github.com/cambiotraining/ml-unsupervised/blob/main/course_files/data/teaching.py) is also available to get you started. 
+
+
+
+
+### (Optional) Visual Studio Code
+
+
+#### Windows
+
+- Go to the [Visual Studio Code download page](https://code.visualstudio.com/Download) and download the installer for your operating system. 
+  Double-click the downloaded file to install the software, accepting all the default options. 
+- After completing the installation, go to your Windows Menu, search for "Visual Studio Code" and launch the application. 
+- Go to "_File > Preferences > Settings_", then select "_Text Editor > Files_" on the drop-down menu on the left. Scroll down to the section named "_EOL_" and choose "_\\n_" (this will ensure that the files you edit on Windows are compatible with the Linux operating system).
+
+#### Mac OS
+
+- Go to the [Visual Studio Code download page](https://code.visualstudio.com/Download) and download the installer for Mac.
+- Go to the Downloads folder and double-click the file you just downloaded to extract the application. Drag-and-drop the "Visual Studio Code" file to your "Applications" folder. 
+- You can now open the installed application to check that it was installed successfully (the first time you launch the application you will get a warning that this is an application downloaded from the internet - you can go ahead and click "Open").
+
+#### Linux (Ubuntu)
+
+- Go to the [Visual Studio Code download page](https://code.visualstudio.com/Download) and download the installer for your Linux distribution. Install the package using your system's installer.
+
+
+
+<!-- 
+## WSL2
+
+There are detailed instructions on how to install WSL on the [Microsoft documentation page](https://learn.microsoft.com/en-us/windows/wsl/install). 
+But briefly:
+
+- Click the Windows key and search for  _Windows PowerShell_, right-click on the app and choose **Run as administrator**. 
+- Answer "Yes" when it asks if you want the App to make changes on your computer. 
+- A terminal will open; run the command: `wsl --install`. 
+  - This should start installing "ubuntu". 
+  - It may ask for you to restart your computer. 
+- After restart, click the Windows key and search for _Ubuntu_, click on the App and it should open a new terminal. 
+- Follow the instructions to create a username and password (you can use the same username and password that you have on Windows, or a different one - it's your choice). 
+  - **Note:** when you type your password nothing seems to be happening as the cursor doesn't move. However, the terminal is recording your password as you type. You will be asked to type the new password again to confirm it, so you can always try again if you get it wrong the first time.
+- You should now have access to a Ubuntu Linux terminal. 
+  This behaves very much like a regular Ubuntu server, and you can install apps using the `sudo apt install` command as usual. 
+
+
+### Configuring WSL2
+
+After installation, it is useful to **create shortcuts to your files on Windows**. 
+Your main `C:\` drive is located in `/mnt/c/` and other drives will be equally available based on their letter. 
+It may be convenient to create shortcuts to commonly-used directories, which you can do using _symbolic links_. 
+Here are some commands to automatically create shortcuts to your Windows "Documents",  "Desktop" and "Downloads" folders:
+
+```bash
+ln -s $(wslpath $(powershell.exe '[environment]::getfolderpath("mydocuments")')) ~/Documents
+ln -s $(wslpath $(powershell.exe '[environment]::getfolderpath("desktop")')) ~/Desktop
+ln -s $(wslpath $(powershell.exe '[environment]::getfolderpath("downloads")')) ~/Downloads
+```
+
+You may also want to configure the Windows terminal to automatically open _WSL2_ (instead of the default Windows Command Prompt or Powershell):
+
+- Search for and open the "<i class="fa-solid fa-terminal"></i> Terminal" application.
+- Click on the downward arrow <i class="fa-solid fa-chevron-down"></i> in the toolbar.
+- Click on "<i class="fa-solid fa-gear"></i> Settings".
+- Under "Default Profile" select "<i class="fa-brands fa-linux"></i> Ubuntu". 
+-->
+
+
+- [Next: Content](content.md)

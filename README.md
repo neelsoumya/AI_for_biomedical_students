@@ -29,7 +29,7 @@ This course introduces biomedical students to AI.
 **Course Website:** [https://neelsoumya.github.io/AI_for_biomedical_students/](https://neelsoumya.github.io/AI_for_biomedical_students/)
 
 
-### Course Materials
+### Course Materials (Table of Contents)
 
 Course content and materials can be found in the following files:
 
