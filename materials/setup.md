@@ -96,11 +96,11 @@ pd.read_csv('diabetes_sample_data.csv')
 * Google Colab will ask you to authenticate your Google account the first time you run the `drive.mount()` command. 
   Follow the instructions in the output cell to complete the authentication process. You will need a gmail account or you can use your cam.ac.uk account. Some screenshots are shown below to guide you through the process:
 
-![Colab Authentication Step 1](images/colab_1.png)
+![Colab Authentication Step 1](../images/colab_1.png)
 
-![Colab Authentication Step 2](images/colab_2.png)
+![Colab Authentication Step 2](../images/colab_2.png)
 
-![Colab Authentication Step 3](images/colab_3.png)
+![Colab Authentication Step 3](../images/colab_3.png)
 
 * If you have your files in a different directory, please change the path in the `os.chdir()` command above accordingly.
 
@@ -121,19 +121,19 @@ My Drive/
 
 * Open a new [Google Colab notebook](https://colab.research.google.com/).
 
-![Step 1](images/step1_browser.png)
+![Step 1](../images/step1_browser.png)
 
 * Click on the folder icon on the left-hand side to open the file explorer.
 
-![Step 2](images/step2_browser.png)
+![Step 2](../images/step2_browser.png)
 
 * Right-click and then mount your Google Drive and then click on the `Run this cell` button.
 
-![Step 3](images/step3_browser.png)
+![Step 3](../images/step3_browser.png)
 
 * Create a new folder named `data` in the `My Drive` folder. Then upload the data files into the `data` folder.
 
-![Step 4](images/step4_browser.png)
+![Step 4](../images/step4_browser.png)
 
 
 
