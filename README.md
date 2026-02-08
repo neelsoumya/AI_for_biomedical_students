@@ -52,6 +52,11 @@ Course content and materials can be found in the following files:
 - [Student Projects](materials/projects.md)
 
 
+### Inspiration
+
+- [Stanford course by Kristin Sainani](https://online.stanford.edu/courses/som-xche0033-demystifying-data-modern-approach-statistical-understanding)
+
+
 ### Learning Objectives
 
 By the end of this course, students will be able to:
