@@ -34,6 +34,7 @@ This course introduces biomedical students to AI.
 Course content and materials can be found in the following files:
 
 - [Content](materials/content.md)
+- [AI for pedagogy](materials/ai_pedagogy_biomedicine.md)
 - [Setup instructions](materials/setup.md)
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Basics of coding (Python)](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#python-basics)
