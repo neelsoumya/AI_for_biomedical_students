@@ -1,5 +1,8 @@
 # Practical Strategies: AI Pedagogy (Practice) & HEA Senior Fellowship Guidance
 
+* [Practical strategies for pedagogy (see Pedagogical Considerations and Applications) for John Snow cholera data and visualization](https://arxiv.org/html/2504.13970v1)
+
+
 ## Quick Practical Strategies for Teaching AI in Biomedicine (Practice)
 - Start with clinical questions: frame each module around a specific biomedical question or clinical decision to keep tools grounded in impact.
 - Model-first thinking: teach simple, interpretable models (logistic regression, decision trees) and workflows before deep learning.
