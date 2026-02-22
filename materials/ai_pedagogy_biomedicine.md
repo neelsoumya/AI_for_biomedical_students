@@ -3,6 +3,163 @@
 * [Practical strategies for pedagogy (see Pedagogical Considerations and Applications) for John Snow cholera data and visualization](https://arxiv.org/html/2504.13970v1)
 
 
+# Higher Education Academy — Senior Fellowship: ideas for an AI × pedagogy portfolio
+
+ (A) quick framing tied to the UK Professional Standards Framework (so you can map evidence to SFHEA), (B) teaching/design ideas you can run as modules/activities, (C) assessment ideas (with rubrics and anti-cheating/process suggestions), and (D) the kinds of artefacts and narrative structure that make a strong Senior Fellowship submission. Demonstrate strategic leadership, scholarship, and mentoring (the heart of Senior Fellowship).
+
+---
+
+## A. Quick framing — map to UKPSF/Senior-Fellowship priorities
+
+When writing your evidence, explicitly link activities to UKPSF dimensions:
+
+* **Areas of activity (A1–A5)** — e.g. A1 (design), A2 (teach), A3 (assess), A4 (enhance learning environment), A5 (scholarship).
+* **Core knowledge (K1–K6)** — include subject expertise, learning theory, technologies, assessment design, external matters.
+* **Professional values (V1–V4)** — learner-centred practice, inclusivity, scholarly activity, ethical practice.
+
+For Senior Fellowship emphasise: strategic influence beyond a single module (mentoring colleagues, leading policy or curriculum change), evidence of sustained impact, and demonstrable leadership in developing others.
+
+---
+
+## B. AI × Pedagogy module / teaching ideas (with learning outcomes)
+
+1. **Foundations: “AI Literacy for Academics & Students” (short course/workshop)**
+
+   * Outcomes: evaluate LLM outputs; design safe prompts; critique ethical and epistemic limits.
+   * Activities: live LLM demos, prompt labs, source-tracing workshop, mini research critiques.
+   * Evidence: workshop materials, attendance numbers, pre/post confidence survey.
+
+2. **“Designing Learning with AI” (staff CPD series)**
+
+   * Outcomes: integrate AI tools into assessment design responsibly; create inclusive AI-guidelines for a programme.
+   * Activities: co-design clinics, peer-review of assessment briefs, pilot projects.
+   * Evidence: programme-level policy drafts, testimonial from colleagues, rollout statistics.
+
+3. **Applied module: “AI in Practice” (project-based, discipline-specific)**
+
+   * Outcomes: build and critique an AI-enabled solution for a domain problem; reflect on social impacts.
+   * Activities: team projects, stakeholder interviews, mini user testing.
+   * Evidence: student projects, external partner feedback, rubric-marked artefacts.
+
+4. **Assessment-focused: “Assessing in the Age of AI” (seminar & toolkit)**
+
+   * Outcomes: create robust, authentic assessments that cannot be outsourced to LLMs; use AI for scalable formative feedback.
+   * Activities: red-team assessments for vulnerability to cheating, design of staged submissions.
+   * Evidence: redesign briefs, before/after cheating incidence data, student performance.
+
+5. **Critical AI seminar series (ethics, historiography, policy)**
+
+   * Outcomes: situate AI development historically, evaluate ethical frameworks, influence departmental policy.
+   * Activities: invited talks, student-led debates, policy-writing labs.
+   * Evidence: seminar programme, minutes showing policy change, reflective essays.
+
+---
+
+## C. Concrete assessment ideas (with rubrics & anti-cheating measures)
+
+### 1) **Annotated AI-assisted submission (individual, formative)**
+
+* Requirement: Student submits artefact plus a “prompt log” and a 500-word critical commentary describing what the AI produced, how they edited it, and what they learned.
+* Why: reveals process, encourages critical reflection and transparency.
+* Evidence for SFHEA: improved student metacognition (survey), examples of logs.
+
+### 2) **Authentic project (group, summative)**
+
+* Brief: solve a real-world problem using AI (data gathering, model/LLM use, stakeholder report).
+* Stages: proposal (10%), mid-stage process log (20%), final deliverable & public presentation (50%), reflective learning account (20%).
+* Anti-cheating: staged deliverables, version-controlled code/notebooks, recorded team demos.
+
+### 3) **Source-verification & fact-check challenge (individual)**
+
+* Students are given several AI-generated “reports” containing subtle errors. Task: detect and justify corrections; produce an annotated corrections ledger.
+* Assessment focuses on critical appraisal and evidence-seeking skills.
+
+### 4) **Oral defense / viva for key submissions**
+
+* After the portfolio submission, short viva probing decisions, methodology, and ethical considerations.
+* Useful metric of individual authorship and depth of understanding.
+
+### 5) **Peer review + calibrated rubric**
+
+* Students review anonymous peers using a rubric that assesses: task understanding, use of AI tools (appropriateness, transparency), ethics, and communication.
+* Provide calibration examples and a meta-reflection on reviewing.
+
+### 6) **AI-design ethical impact statement (mini-essay)**
+
+* Short structured task: identify stakeholders, risks, mitigation, and monitoring plan for any AI artefact produced.
+
+---
+
+### Sample rubric (for an AI-enabled group project, 100 points)
+
+* **Problem framing & relevance — 15** (excellent: precise, stakeholder-informed; poor: vague).
+* **Technical correctness & method — 25** (sound methodology, reproducible code/notebook).
+* **Critical evaluation & evidence — 20** (limitations acknowledged, rigorous testing).
+* **Ethics & societal impact — 15** (clear identification of harms and mitigation).
+* **Process transparency & authorship — 15** (complete prompt logs, git history, demo).
+* **Presentation & communication — 10** (clear, targeted to stakeholders).
+
+Provide exemplary descriptors for each band (high/medium/low) in the rubric.
+
+---
+
+## D. Anti-contract-cheating & academic integrity design features
+
+* Require **process artefacts**: version control logs, notebooks with timestamps, and incremental submissions.
+* Use **vivas and live demos** for high-stakes items.
+* Ask for **reflective statements** explaining decisions and edits to any AI output.
+* Staggered deadlines and iterative feedback reduce last-minute outsourcing.
+* Employ **authentic tasks** (local stakeholders, context-specific datasets) which are hard to outsource generically.
+
+---
+
+## E. Evidence & artefacts to collect for Senior Fellowship
+
+Make a deliberate evidence plan — collect these:
+
+* Module and assessment briefs (before/after redesign) showing your influence.
+* Rubrics and sample marked work (with student consent / anonymised).
+* Records of staff CPD you led: slides, evaluations, attendance lists.
+* Emails/meeting notes showing policy or curriculum changes you initiated.
+* Peer-observation reports and student feedback (quantitative + narrative).
+* External examiner comments if relevant.
+* Data demonstrating impact: e.g., improvement in marks, reduced misconduct, uptake of revised modules.
+* Examples of mentees’ work and testimonials (showing how you developed colleagues).
+* Scholarly outputs: conference presentations, pedagogic articles, or internal reports.
+
+---
+
+## F. Narrative structure for sections of your SFHEA submission (practical template)
+
+For each claim of influence/impact use this micro-structure (keep linking A/K/V):
+
+1. **Claim** — single sentence of what you did and which UKPSF dimensions it addresses.
+2. **Context & scale** — where, when, how many students/colleagues/programmes were affected.
+3. **Activity** — concrete actions you led (design, workshops, policy).
+4. **Evidence & outputs** — list artefacts (attach or reference).
+5. **Outcomes & impact** — measurable change (student performance, curriculum adoption, staff uptake).
+6. **Reflection** — what you learned, what you would change, how you will scale/transfer.
+
+Repeat across 3–5 major claims showing sustained leadership and influence.
+
+---
+
+## G. Quick examples you can drop into evidence statements
+
+* “Led a cross-school CPD programme (n=40 staff) that redesigned assessments to require process artefacts and reflective AI logs; after implementation, incidents flagged for contract cheating fell X% and student critical-reflection scores rose.”
+* “Developed a programme-level AI-use policy and co-authored guidance that was adopted by the Faculty Teaching Committee.”
+
+(Do not quote percentages unless you have the data—replace X with real figures or descriptive terms.)
+
+---
+
+## H. A few low-effort, high-impact starter moves
+
+* Run a one-day “Prompt + Assessment Redesign” workshop with programme leads and produce a short policy draft.
+* Introduce a compulsory “process log” for one assignment as a pilot (collect data).
+* Mentor a colleague to redesign their assessment to be AI-resilient and record the mentorship as evidence.
+
+
 ## Quick Practical Strategies for Teaching AI in Biomedicine (Practice)
 - Start with clinical questions: frame each module around a specific biomedical question or clinical decision to keep tools grounded in impact.
 - Model-first thinking: teach simple, interpretable models (logistic regression, decision trees) and workflows before deep learning.
