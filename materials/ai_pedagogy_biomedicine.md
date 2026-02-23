@@ -345,3 +345,71 @@ When writing the Fellowship application, adapt these paragraphs to address speci
 ### 🧪 Practical Next Step
 
 To further strengthen your Fellowship claim, you might want to collect **Small-Scale Evaluation Data**. Draft a **3-question "Student Perception Survey"** to measure how much this "Scavenger Hunt" approach improved their confidence in spatial analysis.
+
+
+## Mentoring, Assessment and the impact of AI on them
+
+This is an excellent expansion for your Senior Fellowship (SFHEA) application. By integrating **Assessment & Feedback** and **Academic Tutoring**, you move from "how I teach" to "how I ensure quality and support the whole student."
+
+Here is the reflective paper, augmented with these critical pillars of higher education practice.
+
+---
+
+## 🏛️ Modern Pedagogical Frameworks: Assessment, Feedback, and Mentoring
+
+### 1. Assessment: From Description to Criticality
+
+In the context of the John Snow or Wuhan mapping exercises, the assessment must go beyond whether a student can "make a map." A **descriptive** approach asks, *"Where is the pump?"*; a **critical** approach asks, *"How does the choice of spatial parameters influence the public health narrative?"*
+
+* **Transparency & Rubrics**: To ensure parity, students are provided with a clear rubric at the start. This demystifies the grading process, ensuring they understand that marks are awarded for **analytical justification** rather than just technical execution.
+* **Quality Assurance**: To maintain the highest standards, all marking undergoes **internal moderation** and incorporates **external feedback**. This ensures that our assessment of "data fluency" is benchmarked against both institutional and industry standards.
+
+### 2. The Feedback Loop: The Sandwich and Actionable Intelligence
+
+Feedback should not be a post-mortem; it should be a roadmap. Using the **Sandwich Model**, we ensure that even the most rigorous critique remains encouraging and personalized.
+
+| Layer | Component | Description |
+| --- | --- | --- |
+| **Top Bun** | Positive Affirmation | Start with what worked (e.g., "Excellent use of the Folium library to handle the synthetic dataset"). |
+| **The Filling** | Constructive Critique | Shift from descriptive to critical (e.g., "While the map is accurate, your analysis of 'community spread' versus 'the source' lacked depth"). |
+| **The Sauce** | **Actionable Intelligence** | Explicitly tell the student *how* to improve (e.g., "To reach the next grade tier, try integrating a time-series element to show the evolution of the cluster"). |
+| **Bottom Bun** | Encouraging Close | Reiterate potential (e.g., "You have a clear talent for spatial storytelling; keep pushing the boundary of your interpretations"). |
+
+**AI and Pedagogy Tip**: AI can assist educators in "tone-checking" their feedback to ensure it is **forward-looking** and **justified**, helping to turn a one-sentence comment into a personalized growth plan.
+
+### 3. Academic Tutoring: Mentoring in the Age of AI
+
+As a **Wellbeing Champion**, the role of the tutor has evolved. In an era where students can get technical answers from AI 24/7, the human mentor must provide something AI cannot: **Empathy, Privacy, and Ethical Signposting.**
+
+* **The GROW Framework**: We use this model to help students navigate their academic and career goals:
+* **G**oal: What do you want to achieve with this degree/project?
+* **R**eality: Where are you now in your technical/academic journey?
+* **O**ptions: What resources (library, workshops, AI tools) can help you close the gap?
+* **W**ill: What are the specific steps you will take this week?
+
+
+* **Safety & Boundaries**: It is vital to create a **Safe Environment** where students can voice concerns about privacy or AI ethics. While we cannot be available 24/7, we provide structured support and signpost students to professional wellbeing resources when necessary.
+
+---
+
+## 🎓 SFHEA Pointers: Mapping to PSF 2023
+
+If you are using this for your **Senior Fellowship**, here is how to map these specific sections to the **Dimensions of Practice**:
+
+### **A3: Assess and give feedback to learners (Core Area)**
+
+> "My assessment strategy intentionally shifts students from descriptive to critical engagement. By providing transparent rubrics and using the **Sandwich Model** of feedback, I ensure that my comments are not just evaluative but provide **Actionable Intelligence**. This is supported by a robust moderation process that ensures consistency and quality (V4)."
+
+### **A4: Support and guide learners (Core Area)**
+
+> "As an academic tutor, I employ the **GROW framework** to mentor students, particularly in navigating the ethical complexities of AI in data science. By acting as a **Wellbeing Champion**, I bridge the gap between academic pressure and student support, ensuring a safe, inclusive environment that respects student privacy while signposting them to broader institutional resources (V1, V2)."
+
+### **K5: Methods for evaluating the effectiveness of teaching (Knowledge Area)**
+
+> "I integrate **External Feedback** and moderation cycles into my teaching practice. This not only ensures the reliability of my marking but also allows me to reflect on how my pedagogical tools—like the Python 'Scavenger Hunt'—align with the evolving needs of the sector."
+
+---
+
+### 🧪 Do next
+
+Create a **one-page "Student Success Guide"** that explains the **GROW framework** and **Feedback Sandwich** to your students so they understand how they are being supported.
