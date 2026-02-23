@@ -413,3 +413,84 @@ If you are using this for your **Senior Fellowship**, here is how to map these s
 ### 🧪 Do next
 
 Create a **one-page "Student Success Guide"** that explains the **GROW framework** and **Feedback Sandwich** to your students so they understand how they are being supported.
+
+
+## AI for staff (medical school)
+
+This expanded curriculum is designed for a **2-part workshop series** or a **short lecture course**. Since your audience is biomedical scientists and clinicians, the focus remains on **browser-based** tools that require zero installation and zero code.
+
+---
+
+## 🏗️ The Curriculum Overview
+
+**Goal:** Transition staff from "AI-curious" to "AI-competent" by providing a safe, governed toolkit for research, practice, and data.
+
+### Module 1: The Augmented Researcher 📚
+
+**Focus:** Solving "Information Overload."
+
+* **The Concept:** Moving from keyword search (PubMed) to semantic discovery.
+* **Key Tools:**
+* **Elicit / Consensus:** Use these to ask clinical questions (e.g., *"What is the impact of vitamin D on MS progression?"*) and get answers backed by citations from peer-reviewed journals.
+* **Research Rabbit:** A "Spotify for Papers." Start with one key paper, and it builds a visual map of related literature and co-authors.
+* **NotebookLM (by Google):** Upload 20+ PDFs of your own research or a specific niche. It creates a "private brain" you can query without the AI "hallucinating" from the open web.
+
+
+* **Practical Exercise:** "Map a Field in 10 Minutes." Have participants find a seminal paper in their field and use Research Rabbit to discover the most influential "derivative works" from the last 2 years.
+
+### Module 2: The Efficiency-First Clinician 🏥
+
+**Focus:** Reclaiming the "Administrative Burden."
+
+* **The Concept:** Using **Ambient Clinical Intelligence** to focus on the patient, not the screen.
+* **Key Tools (2026 NHS Registry context):**
+* **Heidi Health / Tortus AI:** Browser-based or mobile ambient scribes. They "listen" to a consultation and draft a structured GP/Consultant note (SOAP format) in seconds.
+* **Perplexity AI:** Use this as a "Super-Search" for rapid clinical queries where you need real-time, cited data (e.g., latest NICE guidelines on a specific rare condition).
+* **DeepL / GPT-4o:** For generating patient-facing summaries in simplified language or different languages for non-English speaking patients.
+
+
+* **Practical Exercise:** "The Paperwork Sprint." Use a mock patient transcript and have an AI tool convert it into a formal referral letter and a simplified patient-friendly discharge summary.
+
+### Module 3: The No-Code Data Scientist 📊
+
+**Focus:** "Conversation-to-Graph."
+
+* **The Concept:** Analyzing Excel sheets using natural language instead of complex formulas or R/SPSS.
+* **Key Tools:**
+* **Julius AI:** The "Gold Standard" for scientists. You upload a CSV, and type: *"Create a box plot of Group A vs Group B and tell me if the p-value is significant."* It writes and executes the code in the background.
+* **Polymer:** Best for "searching" through data. It turns a messy spreadsheet into an interactive, searchable dashboard automatically.
+* **Claude 3.5/4 (Analysis Mode):** Excellent for cleaning "dirty" data (e.g., fixing date formats or inconsistent naming in a trial spreadsheet).
+
+
+* **Practical Exercise:** "Chat with your Data." Provide a sample "dummy" clinical trial dataset. Ask the AI to identify outliers and generate a publication-quality Kaplan-Meier survival curve.
+
+---
+
+## 🛡️ The Foundational "Safety & Ethics" Section
+
+*Crucial for UK Medical Schools and NHS Staff*
+
+Before they touch a tool, you must cover the **"Human-in-the-Loop"** principle:
+
+1. **Data Governance:** Never upload **PII (Personally Identifiable Information)** to public AI tools. Only use NHS-approved, enterprise-grade instances for patient data.
+2. **The "Hallucination" Check:** AI is a "Reasoning Engine," not a "Knowledge Database." Always verify dosages and clinical facts against a primary source (e.g., the BNF).
+3. **UK Regulation:** Briefing on the **MHRA** classification of AI as a medical device and the **NHS AI Supplier Registry** (established in early 2026).
+
+---
+
+## 🗓️ Proposed Workshop Schedule
+
+| Time | Activity | Key Takeaway |
+| --- | --- | --- |
+| **00:00** | Intro: The AI Revolution in UK Med | AI is a co-pilot, not a replacement. |
+| **00:30** | **Session 1:** Literature & Discovery | Finding the "Needle in the Haystack." |
+| **01:15** | *Coffee Break* |  |
+| **01:30** | **Session 2:** Workflow & Admin | Ending "Death by Documentation." |
+| **02:15** | **Session 3:** Data & Visualization | From Spreadsheet to Insight. |
+| **03:00** | Ethics & Compliance Panel | Staying safe within NHS/Uni guidelines. |
+
+---
+
+ "Data Safety Handout" or a "Prompt Cheat Sheet" specifically tailored for these medical tools.
+
+ 
