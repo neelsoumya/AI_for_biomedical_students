@@ -288,3 +288,60 @@ Grading rubric highlights: technical correctness (30%), reproducibility (25%), i
 ---
 
 Appendix: example rubric, sample notebook structure, and links to templates can be provided on request.
+
+
+## Data visualization and scavenger hunts: John Snow and the COVID-19 pandemic
+
+* [Practical strategies for pedagogy (see Pedagogical Considerations and Applications) for John Snow cholera data and visualization](https://arxiv.org/html/2504.13970v1)
+
+* [Lectures for spatial data visualization and John Snow](https://neelsoumya.github.io/visualization_lecture/exercises/exercise_week6.html)
+
+This is a compelling narrative for a Senior Fellowship (SFHEA) application. It demonstrates **leadership in digital innovation**, the **design of inclusive learning environments**, and a **scholarly approach** to mapping historical theory onto modern global challenges.
+
+Below is a draft "Short Paper" and a curated reflection designed to align with the **Professional Standards Framework (PSF 2023)**.
+
+---
+
+## 🗺️ Spatial Intelligence in the Age of AI: From Broad Street to Big Data
+
+**Author:** [Your Name]
+
+**Subject:** Data Visualization & Pedagogical Innovation
+
+### The Persistent Power of "Where"
+
+In 1854, Dr. John Snow’s map of the Soho cholera outbreak did more than find a broken pump; it invented a new way of seeing. By translating abstract death tolls into spatial points, Snow moved public health from **superstition (miasma)** to **spatial evidence**.
+
+In today’s "Poly-crisis" world—defined by climate change, pandemics, and urban inequality—spatial visualization remains our most potent tool for sense-making. Whether it is tracking the spread of a respiratory virus in Wuhan or mapping "food deserts" in modern London, the ability to overlay disparate datasets onto a physical landscape allows us to identify systemic failures that statistics alone would hide.
+
+### The Role of AI in Modern Pedagogy
+
+The "Syntax Wall" is the greatest barrier for undergraduates learning data science. Students often get bogged down in Python errors before they ever reach the "Aha!" moment of discovery. AI tools (LLMs) act as a **pedagogical catalyst** in three distinct ways:
+
+1. **Lowering the Barrier to Entry**: AI can generate boilerplate code (as seen in our Folium exercise), allowing students to focus on *interpretation* and *ethics* rather than debugging indentation.
+2. **Synthetic Scaffolding**: AI allows educators to create "Data Sandboxes"—synthetic datasets (like the Wuhan scavenger hunt) that are clean enough for learning but complex enough to remain realistic.
+3. **Active Inquiry**: Instead of a static lecture, students use AI as a "Co-Pilot" to ask, *"What happens if I change the radius?"* or *"How does the map change if I weight the deaths by age?"* This shifts the student from a passive consumer to an active investigator.
+
+---
+
+## 🎓 Text for SFHEA Application (PSF 2023 Alignment)
+
+When writing the Fellowship application, adapt these paragraphs to address specific **Dimensions of Practice**:
+
+### On Design and Planning (K1, K4, V3)
+
+> "In designing my data visualization curriculum, I moved beyond traditional 'click-along' tutorials. By integrating AI-generated synthetic datasets—such as a simulated COVID-19 outbreak in Wuhan—I created a high-stakes, inquiry-based 'scavenger hunt.' This approach bridges historical theory (John Snow) with contemporary relevance, ensuring that students from diverse technical backgrounds can engage with complex spatial analysis without being sidelined by initial coding barriers."
+
+### On Enhancing the Student Experience (V1, K2, K3)
+
+> "I leverage generative AI to provide 'just-in-time' support for students. By providing AI-scaffolded boilerplate code for tools like Folium and Pandas, I empower students to move rapidly from data ingestion to spatial critique. This fosters a sense of 'Digital Fluency,' where the technology becomes a transparent medium for epidemiological storytelling rather than a hurdle. This methodology acknowledges that my students are future leaders who must interpret data rapidly in professional settings."
+
+### On Leadership and Scholarly Practice (D3.3, V4)
+
+> "My leadership in the department involves modeling how AI can be ethically integrated into the classroom. Rather than banning AI, I use it to generate 'noisy' data that requires students to apply human judgment. For instance, in the 'Wuhan Scavenger Hunt' exercise, students must distinguish between the 'Source' and 'Secondary Transmission'—a task that requires critical thinking that AI cannot yet automate. This develops their evaluative judgment, a core requirement for graduates in an AI-driven workforce."
+
+---
+
+### 🧪 Practical Next Step
+
+To further strengthen your Fellowship claim, you might want to collect **Small-Scale Evaluation Data**. Draft a **3-question "Student Perception Survey"** to measure how much this "Scavenger Hunt" approach improved their confidence in spatial analysis.
