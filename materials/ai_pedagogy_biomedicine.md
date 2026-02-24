@@ -493,4 +493,19 @@ Before they touch a tool, you must cover the **"Human-in-the-Loop"** principle:
 
  "Data Safety Handout" or a "Prompt Cheat Sheet" specifically tailored for these medical tools.
 
- 
+## AI prototyping tools
+
+- Lovable
+
+- Replit
+
+- Cursor
+
+- Google AI studio
+
+- Base44
+
+- NotebookLM
+
+- claude.ai
+
