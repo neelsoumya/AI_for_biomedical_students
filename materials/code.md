@@ -113,3 +113,72 @@ Wrap up by explaining that they just performed **Data Science**. They took raw d
 
 * **Embrace the Error:** When a faculty member gets a "SyntaxError," celebrate it! Show them that the computer is just saying, "I don't understand that specific typo," not "You aren't a programmer."
 * **The "Play" Button:** Remind them constantly that nothing they type can "break" their computer. It's a safe sandbox.
+
+
+
+---
+
+## 🐍 Python for Faculty: The 60-Minute Cheat Sheet
+
+This "Cheat Sheet" is designed to be a single-page reference that faculty can keep open in a tab or printed on their desk. It focuses on the "grammar" of Python without the jargon.
+
+
+### 1. The Google Colab Environment
+
+* **Code Cell:** A box where you type instructions.
+* **The Play Button:** Click the "Play" icon (or press `Shift + Enter`) to run the code in that cell.
+* **Comments (`#`):** Anything after a `#` is a note for you. The computer ignores it.
+* *Example:* `# This is a note to remind me what this does.`
+
+
+
+---
+
+### 2. Storing Information (Variables)
+
+Think of a variable as a **labeled drawer** where you store a piece of data for later.
+
+| Type | Example | Use Case |
+| --- | --- | --- |
+| **String** | `name = "Dr. Smith"` | Text (always use "quotes"). |
+| **Integer** | `points = 100` | Whole numbers for grades/counts. |
+| **Float** | `average = 85.5` | Numbers with decimals. |
+
+---
+
+### 3. Working with Groups (Lists)
+
+When you have a whole class, you use a **List**. Lists always live inside **square brackets `[]**`.
+
+* `class_grades = [88, 92, 75, 100]`
+* **To get the first item:** `class_grades[0]` (Computers start counting at zero!)
+
+---
+
+### 4. Built-in "Powers" (Functions)
+
+Functions are pre-written shortcuts that do work for you. They always end in **parentheses `()**`.
+
+* `print()` — Shows the result on your screen.
+* `len()` — Tells you the **len**gth (how many items are in a list).
+* `sum()` — Adds all the numbers in a list together.
+* `round(x, 2)` — Rounds a number to 2 decimal places.
+
+---
+
+### 5. The Golden Rule: Indentation
+
+In Python, **space matters**. If you are writing a "loop" or a "condition," the code underneath must be indented (usually by hitting the `Tab` key). This tells Python, "This code belongs to the block above it."
+
+---
+
+### 6. Troubleshooting (Don't Panic!)
+
+If your code turns **Red**, it just means the computer is confused.
+
+* **SyntaxError:** You likely missed a quote `"`, a bracket `]`, or a parenthesis `)`.
+* **NameError:** You tried to use a variable name you haven't "saved" yet (did you forget to press Play on the cell where you defined it?).
+
+> **Pro-Tip:** Coding is 10% writing logic and 90% figuring out where you forgot to close a parenthesis. You’re doing great!
+
+---
