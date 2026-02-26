@@ -42,7 +42,9 @@ No code tools.
 
 - [Visualize neural networks](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.64686&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 
-- Excel/Google Sheets :-)
+- Excel/Google Sheets :-) pivot tables
+
+- PubPeer plugin for detecting issues with papers
 
 - [Basics of unsupervised machine learning using animations and widgets](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data) and [PCA in your browser](https://projector.tensorflow.org/) and [visual explanations of PCA](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#visual-explanations-of-pca) and [visualizing the Swiss roll data](https://cambiotraining.github.io/ml-unsupervised/materials/pca_tsne_notwork.html#activity-demonstrating-how-pca-may-not-work-well-on-the-swiss-roll-data)
 
