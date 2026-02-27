@@ -1,5 +1,11 @@
 # Introduction to code in Python
 
+## Hour of code for AI
+
+- 🎮💡🛠️ [Hour of AI activities](https://csforall.org/en-US/activities/hour-of-ai)
+
+## Hour of code Python
+
 Let's build a **"Smart Syllabus Assistant"** that calculates grades and visualizes class performance.
 
 ---
