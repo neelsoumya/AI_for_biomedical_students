@@ -8,7 +8,7 @@
 
 ### Course Overview
 
-This course introduces biomedical students to AI.
+This course introduces biomedical students and other non-technical students to AI.
 
 - Students will learn about AI, no code and low code tools. 
 - They will learn how to load data and quickly visualize it and derive results. 
@@ -20,7 +20,7 @@ This course introduces biomedical students to AI.
 - Hackathons (such as creating a clinical chatbot)
 
 
-**Level:** Undergraduate/Postgraduate
+**Level:** Undergraduate/Postgraduate/School
 **Prerequisites:** Basic programming knowledge (any language)  
 **Duration:** 12 weeks (3 hours/week lecture + 2 hours/week lab)  
 
