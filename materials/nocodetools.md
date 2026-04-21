@@ -22,6 +22,12 @@ No code tools.
 
 ## AI prototyping tools
 
+- [NotebookLM](https://notebooklm.google/)
+
+- [claude.ai](https://claude.ai/new)
+
+- [Gemini](https://gemini.google.com/app)
+
 - Lovable
 
 - Replit
@@ -32,9 +38,7 @@ No code tools.
 
 - Base44
 
-- NotebookLM
 
-- claude.ai
 
 
 ## Other tools
