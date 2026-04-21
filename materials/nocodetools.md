@@ -2,6 +2,18 @@
 
 No code tools.
 
+
+## 🎮💡🛠️ Activity: use the `drawdata` package
+
+- Use the [`drawdata` package](https://koaning.github.io/drawdata/) to draw data and make an interesting visualization
+
+- You can draw data using the cursor!
+
+- Credit: Thanks to Mark Fernandes for suggesting this
+
+
+## Other tools
+
 - Unsloth (via Google Colab)
 
 - [Tutorial on Unsloth](https://unsloth.ai/docs/get-started/install/google-colab)
@@ -23,6 +35,7 @@ No code tools.
 - NotebookLM
 
 - claude.ai
+
 
 ## Other tools
 
