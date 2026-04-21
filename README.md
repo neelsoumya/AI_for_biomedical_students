@@ -37,7 +37,10 @@ Course content and materials can be found in the following files:
 - [AI for pedagogy](materials/ai_pedagogy_biomedicine.md)
 - [Setup instructions](materials/setup.md)
 - [Introduction to coding (hour of code) for faculty](materials/code.md)
-- [Coding and visualization in Google Colab](materials/colab.md)
+- [Coding and visualization in Google Colab for beginners and lowcode](materials/colab.md)
+
+- [Basics of AI for lay people](https://github.com/neelsoumya/ai_outreach)
+
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Basics of coding (Python)](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#python-basics)
 - [Basics of coding and data analysis in R/Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
