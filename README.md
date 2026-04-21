@@ -46,6 +46,8 @@ Course content and materials can be found in the following files:
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
 
+- [Sarvam chatbot](materials/chatbot.md)
+
 
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Basics of coding (Python)](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#python-basics)
