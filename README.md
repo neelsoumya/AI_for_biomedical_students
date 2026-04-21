@@ -46,7 +46,7 @@ Course content and materials can be found in the following files:
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
 
-- [Sarvam chatbot](materials/chatbot.md)
+- [Design your own Indic language Sarvam chatbot to translate from your language](materials/chatbot.md)
 
 
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)

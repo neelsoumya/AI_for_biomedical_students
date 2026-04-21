@@ -1,10 +1,14 @@
 # Designing a chatbot in Sarvam
 
-- Create an account in Sarvam
+- Create an account in [Sarvam](https://login.sarvam.ai/welcome)
 
-- get API key
+- get [API key](https://dashboard.sarvam.ai/)
 
-- open google colab
+- open [Google Colab](https://colab.research.google.com/)
+
+- save your API key in `secrets` tab in Google Colab
+
+- type the following code in Colab
 
 ```python
 '''
