@@ -41,6 +41,10 @@ Course content and materials can be found in the following files:
 
 - [Basics of AI for lay people](https://github.com/neelsoumya/ai_outreach)
 
+- [Prompt engineering](materials/prompt_engineering.md)
+- [No code tools](materials/nocodetools.md)
+
+
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Basics of coding (Python)](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#python-basics)
 - [Basics of coding and data analysis in R/Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
@@ -50,8 +54,6 @@ Course content and materials can be found in the following files:
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
 - [Basics of unsupervised machine learning using animations and widgets](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data) and [PCA in your browser](https://projector.tensorflow.org/) and [visual explanations of PCA](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#visual-explanations-of-pca) and [visualizing the Swiss roll data](https://cambiotraining.github.io/ml-unsupervised/materials/pca_tsne_notwork.html#activity-demonstrating-how-pca-may-not-work-well-on-the-swiss-roll-data)
 - [Basics of supervised machine learning](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#example) and [here](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#supervised-machine-learning-notebooks)
-- [Prompt engineering](materials/prompt_engineering.md)
-- [No code tools](materials/nocodetools.md)
 - [Basics of Large language models (LLMs)](https://docs.science.ai.cam.ac.uk/hands-on-llms/)
 - [HCI principles and how to prototype](materials/HCI.md)
 - [AI ethics](https://github.com/neelsoumya/AI_safety_teaching_resources)
