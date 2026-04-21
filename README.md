@@ -37,7 +37,8 @@ Course content and materials can be found in the following files:
 - [AI for pedagogy](materials/ai_pedagogy_biomedicine.md)
 - [Setup instructions](materials/setup.md)
 - [Introduction to coding (hour of code) for faculty](materials/code.md)
-- [Coding and visualization in Google Colab for beginners and lowcode](materials/colab.md)
+
+- [Coding and visualization in Google Colab for beginners and lowcode (ipywidgets,streamlit and superintelligence task)](materials/colab.md)
 
 - [Exercises and activities in Google Colab: hunting for the source of an epidemic](materials/scavenger_hunt.md)
 
