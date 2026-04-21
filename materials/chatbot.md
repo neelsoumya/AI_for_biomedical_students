@@ -12,11 +12,11 @@ securely in Google Colab, you should use Colab's **Secrets** feature. This allow
 
 1.  **Open the Secrets Panel:** In the left sidebar of your Colab notebook, click on the **"🔑 Secrets"** icon (it looks like a key).
 2.  **Add a new secret:** Click the **"+ Add new secret"** button.
-3.  **Name the secret:** For your `Sarvam` authtoken, you could name it `YOUR_AUTHTOKEN` (or any other descriptive name you prefer, but remember it for later).
-4.  **Enter the secret value:** Paste your `Sarvam` authtoken into the "Value" field.
+3.  **Name the secret:** For your `Sarvam` API key, you could name it `YOUR_AUTHTOKEN` (or any other descriptive name you prefer, but remember it for later).
+4.  **Enter the secret value:** Paste your `Sarvam` API key into the "Value" field.
 5.  **Save:** Click "Save secret".
 
-Once saved, you can access this secret in your Python code using `from google.colab import userdata` and then `userdata.get('YOUR_AUTHTOKEN')` (replacing `'YOUR_AUTHTOKEN'` with the name you gave your secret).
+Once saved, you can access this secret in your Python code using `from google.colab import userdata` and then `token = userdata.get('YOUR_AUTHTOKEN')` (replacing `'YOUR_AUTHTOKEN'` with the name you gave your secret).
 
 
 
