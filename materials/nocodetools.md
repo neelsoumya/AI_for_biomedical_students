@@ -28,6 +28,8 @@ No code tools.
 
 - [Gemini](https://gemini.google.com/app)
 
+- [Sarvam](https://indus.sarvam.ai/)
+
 - Lovable
 
 - Replit
