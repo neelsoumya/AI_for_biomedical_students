@@ -39,6 +39,8 @@ Course content and materials can be found in the following files:
 - [Introduction to coding (hour of code) for faculty](materials/code.md)
 - [Coding and visualization in Google Colab for beginners and lowcode](materials/colab.md)
 
+- [Exercises and activities in Google Colab: hunting for the source of an epidemic](materials/scavenger_hunt.md)
+
 - [Basics of AI for lay people](https://github.com/neelsoumya/ai_outreach)
 
 - [Prompt engineering](materials/prompt_engineering.md)
