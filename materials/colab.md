@@ -1,4 +1,35 @@
-# 🎮🛠️ Exercise on interactive visualizations and visual storytelling (Superintelligence) using ipywidgets and streamlit 
+# 🎮🛠️ Exercise on interactive visualizations and visual storytelling (Superintelligence) using ipywidgets and streamlit and Google Colan
+
+
+## Google Colab
+
+- Open a new notebook in [Google Colab](https://colab.research.google.com/)
+
+- If you want to run the notebooks in Colab, you can also use the _Open in Colab_ badge below:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+
+
+- Run the commands in code cells.
+
+- You can now create notebooks and run any of the scripts in Google Colab.
+
+
+* (Optional) In order to access the files on your computer, you can save them to your Google Drive (in a directory named `data`) and mount the drive in Colab. Open a new Google Colab notebook. Then create a new code cell and type the following commands (and then click the play button to run the cell):
+
+```python
+from google.colab import drive
+import os
+import pandas as pd
+
+drive.mount('/content/drive')
+os.chdir('/content/drive/My Drive/data')
+
+pd.read_csv('diabetes_sample_data.csv')
+```
+
+* Google Colab will ask you to authenticate your Google account the first time you run the `drive.mount()` command. 
+  > Follow the instructions in the output cell to complete the authentication process. You will need a gmail account
 
 
 ## Streamlit
