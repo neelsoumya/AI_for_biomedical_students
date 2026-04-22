@@ -36,7 +36,7 @@ Course content and materials can be found in the following files:
 - [Content](materials/content.md)
 - [AI for pedagogy](materials/ai_pedagogy_biomedicine.md)
 - [Setup instructions](materials/setup.md)
-- [Introduction to coding (hour of code) for faculty](materials/code.md)
+- [Introduction to coding (hour of code) for faculty or non-technical students who do not know programming](materials/code.md)
 
 - [Coding and visualization in Google Colab for beginners and lowcode (ipywidgets,streamlit and superintelligence task)](materials/colab.md)
 
