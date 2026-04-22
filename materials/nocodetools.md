@@ -30,6 +30,8 @@ No code tools.
 
 - [Sarvam](https://indus.sarvam.ai/)
 
+- OpenAI Canvas
+
 - Lovable
 
 - Replit
