@@ -113,3 +113,44 @@ tab2.dataframe(data, height=250, use_container_width=True)
 5.  **Save:** Click "Save secret".
 
 Once saved, you can access this secret in your Python code using `from google.colab import userdata` and then `userdata.get('YOUR_AUTHTOKEN')` (replacing `'YOUR_AUTHTOKEN'` with the name you gave your secret).
+
+
+## Streamlit commands
+
+- [Lecture](https://learn.deeplearning.ai/courses/fast-prototyping-of-genai-apps-with-streamlit/lesson/154mpf/making-your-first-interactive-streamlit-app)
+
+- `st.slider` `st.button` `st.text_input()` `st.selectbox()` `st.checkbox()` `st.file__uploader()`
+
+- [Code to wrap a streamlit UI around chatbot](https://github.com/https-deeplearning-ai/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M1/Lesson_02/M1L2V3.py)
+
+- Code from deeplearning.ai
+
+```python
+# import packages
+from dotenv import load_dotenv
+import openai
+import streamlit as st
+
+
+# load environment variables from .env file
+load_dotenv()
+
+# Initialize OpenAI client
+client = openai.OpenAI()
+
+st.title("Hello, GenAI!")
+st.write("This is your first Streamlit app.")
+
+response = client.responses.create(
+    model="gpt-4o",
+    input=[
+        {"role": "user", "content": "Explain generative AI in one sentence."}  # Prompt
+    ],
+    temperature=0.7,  # A bit of creativity
+    max_output_tokens=100  # Limit response length
+)
+
+# print the response from OpenAI
+st.write(response.output[0].content[0].text)
+
+```
