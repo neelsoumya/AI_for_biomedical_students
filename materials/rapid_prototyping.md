@@ -121,7 +121,10 @@ Once saved, you can access this secret in your Python code using `from google.co
 
 - `st.slider` `st.button` `st.text_input()` `st.selectbox()` `st.checkbox()` `st.file__uploader()`
 
+## 🎮 💡🛠️Activity: chatbot and streamlit
+
 - [Code to wrap a streamlit UI around chatbot](https://github.com/https-deeplearning-ai/fast-prototyping-of-genai-apps-with-streamlit/blob/main/M1/Lesson_02/M1L2V3.py)
+
 
 - Code from deeplearning.ai
 
@@ -154,3 +157,9 @@ response = client.responses.create(
 st.write(response.output[0].content[0].text)
 
 ```
+
+## Data handling
+
+- [Lecture](https://learn.deeplearning.ai/courses/fast-prototyping-of-genai-apps-with-streamlit/lesson/moieyb/integrating-genai-for-data-handling)
+
+- `st.session_state()`
