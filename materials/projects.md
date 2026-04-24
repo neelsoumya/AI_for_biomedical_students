@@ -4,6 +4,8 @@ Projects for students
 
 ## Project ideas
 
+- [Dashboards and UI (using streamlit) for chatbot](colab.md) and more material [here](rapid_prototyping.md)
+
 - Dashboards and visualizations for visualizing AI risk holistically (Global South). Integrate risk from various sources (climate, geopolitical, financial, etc.)
 - Chatbots to create AI healthcare strategies for the Global South. These would be Small Language Models (SLMs). Use `Unsloth` to build an SLM.
 
