@@ -159,6 +159,25 @@ st.write(response.output[0].content[0].text)
 
 ```
 
+
+## Visualization
+
+- [🎥 Lecture video](https://learn.deeplearning.ai/courses/fast-prototyping-of-genai-apps-with-streamlit/lesson/op1g8l/data-visualization)
+
+- `st.bar_chart()`
+
+- `st.scatter_chart(df)`, works with _pandas_ dataframe
+
+- use with _matplotlib_ `st.pyplot(fig)`
+
+- use with _plotly_ `st.plotly_chart(fig, use_container_width = True)`
+
+## Deploy app
+
+- [🎥 Lecture video](https://learn.deeplearning.ai/courses/fast-prototyping-of-genai-apps-with-streamlit/lesson/y8oa6j/publish-your-app-online)
+
+
+
 ## (Optional) Data handling
 
 - [🎥 Lecture video](https://learn.deeplearning.ai/courses/fast-prototyping-of-genai-apps-with-streamlit/lesson/moieyb/integrating-genai-for-data-handling)
