@@ -266,6 +266,8 @@ numpy>=1.26.0
 
 - [Deployed app](https://wuhan-scavenger-hunt-interactive.streamlit.app/)
 
+- can also deploy on [Huggingface spaces](https://huggingface.co/spaces)
+
 
 
 ## (Optional) Data handling
