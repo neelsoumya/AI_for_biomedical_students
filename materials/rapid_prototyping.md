@@ -179,9 +179,11 @@ st.write(response.output[0].content[0].text)
 
 ### 📚 📝 Deployment for `streamlit`
 
-- [Streamlit](https://share.streamlit.io/new)
+- [Github](https://github.com/) Create new account on github
 
-- Create new app and connect to github
+- Create new app and connect to [github](https://github.com/)
+
+- Create new repository on github
 
 - Upload your code to github (code below)
 
@@ -263,6 +265,9 @@ numpy>=1.26.0
 ```
 
 - [Connect to code on github](https://github.com/neelsoumya/wuhan_covid_scavenger_hunt_streamlit_teaching)
+
+- Go to [Streamlit](https://share.streamlit.io/new) and connect your github repository
+
 
 - [Deployed app](https://wuhan-scavenger-hunt-interactive.streamlit.app/)
 
