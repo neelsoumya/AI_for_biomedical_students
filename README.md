@@ -38,11 +38,16 @@ Course content and materials can be found in the following files:
 - [Setup instructions](materials/setup.md)
 - [Introduction to coding (hour of code) for faculty or non-technical students who do not know programming](materials/code.md)
 
+Basics of AI
+
+- [Basics of AI for lay people and interactive visualizations of how neural networks work](materials/AI_basic.md) based on resources [here](https://github.com/neelsoumya/ai_outreach)
+
+Activities
+
 - [Coding and visualization in Google Colab for beginners and lowcode (ipywidgets,streamlit and superintelligence task)](materials/colab.md)
 - [Exercises and activities in Google Colab: hunting for the source of an epidemic](materials/scavenger_hunt.md)
 
-
-- [Basics of AI for lay people and interactive visualizations of how neural networks work](materials/AI_basic.md) based on resources [here](https://github.com/neelsoumya/ai_outreach)
+No code tools
 
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
@@ -61,6 +66,7 @@ More advanced topics
 - [NHS and electronic healthcare records data](https://cambiotraining.github.io/ml-unsupervised/materials/applications.html#sec-exr_title_EHR)
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
 - [Gestalt and semiotics of data visualization](https://neelsoumya.github.io/visualization_lecture/gestalt_theory.html)
+
 
 
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
