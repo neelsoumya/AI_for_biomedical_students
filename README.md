@@ -42,7 +42,7 @@ Course content and materials can be found in the following files:
 - [Exercises and activities in Google Colab: hunting for the source of an epidemic](materials/scavenger_hunt.md)
 
 
-- [Basics of AI for lay people and interactive visualizations of how neural networks work](https://github.com/neelsoumya/ai_outreach)
+- [Basics of AI for lay people and interactive visualizations of how neural networks work](materials/AI_basic.md) based on resources [here](https://github.com/neelsoumya/ai_outreach)
 
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
@@ -50,10 +50,13 @@ Course content and materials can be found in the following files:
 - [Design your own Indic language Sarvam chatbot to translate from your language](materials/chatbot.md)
 - [Rapid prototyping using GenAI and streamlit](materials/rapid_prototyping.md)
 
+Coding
 
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Basics of coding (Python)](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#python-basics)
 - [Basics of coding and data analysis in R/Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
+
+More advanced topics
 
 - [NHS and electronic healthcare records data](https://cambiotraining.github.io/ml-unsupervised/materials/applications.html#sec-exr_title_EHR)
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
@@ -244,7 +247,6 @@ By the end of this course, students will be able to:
 **Topics:**
 - Supervised learning: Classification and regression with biomedical examples
 - Unsupervised learning: Clustering patient populations, dimensionality reduction
-- Reinforcement learning: Drug discovery and treatment optimization
 - Training, validation, and testing: Why we split data
 - Overfitting and underfitting: The bias-variance tradeoff
 - Feature selection and engineering in biomedical contexts
