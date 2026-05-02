@@ -80,9 +80,18 @@ No code tools
 
 - [Basics of unsupervised machine learning using animations and widgets](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data) and [PCA in your browser](https://projector.tensorflow.org/) and [visual explanations of PCA](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#visual-explanations-of-pca) and [visualizing the Swiss roll data](https://cambiotraining.github.io/ml-unsupervised/materials/pca_tsne_notwork.html#activity-demonstrating-how-pca-may-not-work-well-on-the-swiss-roll-data)
 - [Basics of supervised machine learning](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#example) and [here](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#supervised-machine-learning-notebooks)
+
+Large language models
+
 - [Basics of Large language models (LLMs)](https://docs.science.ai.cam.ac.uk/hands-on-llms/)
 - [HCI principles and how to prototype](materials/HCI.md)
+
+Ethics
+
 - [AI ethics](https://github.com/neelsoumya/AI_safety_teaching_resources)
+
+Projects
+
 - [Student Projects](materials/projects.md)
 
 
@@ -94,11 +103,8 @@ No code tools
 ### Learning Objectives
 
 By the end of this course, students will be able to:
-- Create semantic, accessible HTML5 documents
-- Design responsive layouts using modern CSS3 techniques
-- Develop server-side applications with PHP
-- Build secure web applications following best practices
-- Deploy and maintain web applications
+- Understand the basics of AI
+
 
 ### Course Structure
 
