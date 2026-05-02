@@ -36,7 +36,7 @@ Course content and materials can be found in the following files:
 - [Content](materials/content.md)
 - [AI for pedagogy](materials/ai_pedagogy_biomedicine.md)
 - [Setup instructions](materials/setup.md)
-- [Introduction to coding (hour of code) for faculty or non-technical students who do not know programming](materials/code.md)
+
 
 Basics of AI
 
@@ -51,6 +51,12 @@ No code tools
 
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
+
+Introduction to coding
+
+- [Introduction to coding (hour of code) for faculty or non-technical students who do not know programming](materials/code.md)
+
+Coding activities
 
 - [Design your own Indic language Sarvam chatbot to translate from your language](materials/chatbot.md)
 - [Rapid prototyping using GenAI and streamlit](materials/rapid_prototyping.md)
@@ -70,6 +76,7 @@ More advanced topics
 
 
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
+
 - [Basics of unsupervised machine learning using animations and widgets](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data) and [PCA in your browser](https://projector.tensorflow.org/) and [visual explanations of PCA](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#visual-explanations-of-pca) and [visualizing the Swiss roll data](https://cambiotraining.github.io/ml-unsupervised/materials/pca_tsne_notwork.html#activity-demonstrating-how-pca-may-not-work-well-on-the-swiss-roll-data)
 - [Basics of supervised machine learning](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#example) and [here](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#supervised-machine-learning-notebooks)
 - [Basics of Large language models (LLMs)](https://docs.science.ai.cam.ac.uk/hands-on-llms/)
