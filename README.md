@@ -51,6 +51,7 @@ No code tools
 
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
+- [Activities with ChatGPT/Gemini](materials/gemini.md)
 
 Introduction to coding
 
