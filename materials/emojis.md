@@ -15,4 +15,5 @@
 - Examples: 📚, 📝
 - Celebrations: 🎉, 🥳
 - 🎥 Video
+- 💻 Code/Program
 

@@ -53,28 +53,28 @@ No code tools
 - [No code tools](materials/nocodetools.md)
 - [Activities with ChatGPT/Gemini](materials/gemini.md)
 
-Introduction to coding
+💻 Introduction to coding
 
 - [Introduction to coding (hour of code) for faculty or non-technical students who do not know programming](materials/code.md)
 
-Coding activities
+🎮 💻 Coding activities
 
 - [Design your own Indic language Sarvam chatbot to translate from your language](materials/chatbot.md)
 - [Rapid prototyping using GenAI and streamlit](materials/rapid_prototyping.md)
 
-Coding
+🎮 Coding
 
 - [Python refresher](https://cambiotraining.github.io/ml-unsupervised/materials/python_refresher.html)
 - [Basics of coding (Python)](https://github.com/neelsoumya/python_machine_learning/tree/main?tab=readme-ov-file#python-basics)
 - [Basics of coding and data analysis in R/Python](https://cambiotraining.github.io/data-analysis-in-r-and-python/)
 
-More advanced topics
+⚠️ More advanced topics
 
 - [NHS and electronic healthcare records data](https://cambiotraining.github.io/ml-unsupervised/materials/applications.html#sec-exr_title_EHR)
 - [Data visualization](https://neelsoumya.github.io/visualization_lecture/)
 - [Gestalt and semiotics of data visualization](https://neelsoumya.github.io/visualization_lecture/gestalt_theory.html)
 
-
+⚠️ Yet more advanced topics
 
 - [Mathematical basics of AI and basic statistics](materials/basic_mathematics_stats.md)
 
