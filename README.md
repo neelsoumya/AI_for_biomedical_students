@@ -42,7 +42,7 @@ Basics of AI
 
 - [Basics of AI for lay people and interactive visualizations of how neural networks work](materials/AI_basic.md) based on resources [here](https://github.com/neelsoumya/ai_outreach)
 
-Activities
+🎮 💡 🛠️ Activities
 
 - [Coding and visualization in Google Colab for beginners and lowcode (ipywidgets,streamlit and superintelligence task)](materials/colab.md)
 - [Exercises and activities in Google Colab: hunting for the source of an epidemic](materials/scavenger_hunt.md)
