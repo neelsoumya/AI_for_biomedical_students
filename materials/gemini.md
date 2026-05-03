@@ -44,6 +44,10 @@ This is the most important part of **AI Literacy**. Explain that AI sometimes ma
 
 How do you think they will react to the AI "seeing" things through the camera? Which of these activities do you think would be the most exciting for your 8th graders to try first?
 
-## Other ideas to re-iterate
+## Actvity workbook
+
+- 💡 🛠️ [Workbook](../activities/AI_Classroom_Activity_Sheet_Class8.pdf)
+
+## Concept to re-iterate
 
 - 🤔 Important: AI is a helper, not always correct. / AI मददगार है, लेकिन हमेशा सही नहीं।
