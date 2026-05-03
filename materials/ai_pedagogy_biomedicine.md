@@ -3,6 +3,14 @@
 * [Practical strategies for pedagogy (see Pedagogical Considerations and Applications) for John Snow cholera data and visualization](https://arxiv.org/html/2504.13970v1)
 
 
+# AI for pedagogy paper and grant ideas
+
+- like netLOGO but for AI
+- What Seymour Papert did with NetLOGO
+- `constructionism`
+- AI for education for Global South
+
+
 # Higher Education Academy — Senior Fellowship: ideas for an AI × pedagogy portfolio
 
  (A) quick framing tied to the UK Professional Standards Framework (so you can map evidence to SFHEA), (B) teaching/design ideas you can run as modules/activities, (C) assessment ideas (with rubrics and anti-cheating/process suggestions), and (D) the kinds of artefacts and narrative structure that make a strong Senior Fellowship submission. Demonstrate strategic leadership, scholarship, and mentoring (the heart of Senior Fellowship).
