@@ -43,3 +43,7 @@ This is the most important part of **AI Literacy**. Explain that AI sometimes ma
 *   **Think of AI as a 'Friend':** Tell them it's like a friend who has read every book in the world but sometimes forgets small details.
 
 How do you think they will react to the AI "seeing" things through the camera? Which of these activities do you think would be the most exciting for your 8th graders to try first?
+
+## Other ideas to re-iterate
+
+- 🤔 Important: AI is a helper, not always correct. / AI मददगार है, लेकिन हमेशा सही नहीं।
