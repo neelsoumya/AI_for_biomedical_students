@@ -104,6 +104,7 @@ Projects
 
 By the end of this course, students will be able to:
 - Understand the basics of AI
+- Understand what AI can and _cannot_ do
 
 
 ### Course Structure
