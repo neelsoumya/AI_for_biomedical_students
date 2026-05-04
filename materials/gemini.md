@@ -46,7 +46,7 @@ How do you think they will react to the AI "seeing" things through the camera? W
 
 ## Actvity workbook
 
-- 💡 🛠️ [Workbook](../activities/AI_Classroom_Activity_Sheet_Class8.pdf)
+- 💡 🛠️ [Workbook for students in India](../activities/AI_Classroom_Activity_Sheet_Class8.pdf)
 
 ## Concept to re-iterate
 
