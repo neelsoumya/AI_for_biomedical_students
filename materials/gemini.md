@@ -48,6 +48,6 @@ How do you think they will react to the AI "seeing" things through the camera? W
 
 - 💡 🛠️ [Workbook for students in India](../activities/AI_Classroom_Activity_Sheet_Class8.pdf)
 
-## Concept to re-iterate
+## _Concept_ to re-iterate
 
 - 🤔 Important: AI is a helper, not always correct. / AI मददगार है, लेकिन हमेशा सही नहीं।
