@@ -38,7 +38,7 @@ Course content and materials can be found in the following files:
 - [Setup instructions](materials/setup.md)
 
 
-Basics of AI
+🚀 Basics of AI
 
 - [Basics of AI for lay people and interactive visualizations of how neural networks work](materials/AI_basic.md) based on resources [here](https://github.com/neelsoumya/ai_outreach)
 
@@ -47,11 +47,13 @@ Basics of AI
 - [Coding and visualization in Google Colab for beginners and lowcode (ipywidgets,streamlit and superintelligence task)](materials/colab.md)
 - [Exercises and activities in Google Colab: hunting for the source of an epidemic](materials/scavenger_hunt.md)
 
-No code tools
+🧩 No code tools
 
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
 - [Activities with ChatGPT/Gemini](materials/gemini.md)
+- [Activity using Claude to design a chatbot deployed on 🤗 Huggingface](https://huggingface.co/spaces/neelsoumya/opensourcechatbot) with code [here](https://github.com/neelsoumya/llm_projects/blob/main/opensource_chatbot_huggingface.py)
+
 
 💻 Introduction to coding
 
