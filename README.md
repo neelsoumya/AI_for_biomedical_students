@@ -52,7 +52,7 @@ Course content and materials can be found in the following files:
 - [Prompt engineering](materials/prompt_engineering.md)
 - [No code tools](materials/nocodetools.md)
 - [Activities with ChatGPT/Gemini](materials/gemini.md)
-- [Activity using Claude to design a chatbot deployed on 🤗 Huggingface](https://huggingface.co/spaces/neelsoumya/opensourcechatbot) with code [here](https://github.com/neelsoumya/llm_projects/blob/main/opensource_chatbot_huggingface.py)
+- [🎮 Activity using Claude to design a chatbot deployed on 🤗 Huggingface](https://huggingface.co/spaces/neelsoumya/opensourcechatbot) with code [here](https://github.com/neelsoumya/llm_projects/blob/main/opensource_chatbot_huggingface.py)
 
 
 💻 Introduction to coding
