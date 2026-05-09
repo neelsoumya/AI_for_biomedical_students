@@ -33,6 +33,9 @@
 
 - There are multiple immediate risks that AI poses to us. Bias in AI is one of them and _we_ can fix it.
 
+## Understanding how neural networks work
+
+- [Animation](https://teaching-neural-network-animation.streamlit.app/)
 
 ## Activity using Google `QuickDraw`
 
@@ -86,6 +89,7 @@ To help the students visualize how the "guessing" actually happens, you can use 
 1. **Iterative Learning:** Encourage students to try drawing the same object three times. Ask them: "Did you change your drawing style to help the AI understand better?" This introduces the idea of **Prompt Engineering**.
 2. **The "Failure" Discussion:** When the AI fails, ask why. Is the drawing too messy, or has the AI just not seen enough examples of that specific style?
 3. **No Tech Version:** If computers are limited, have one student "train" another by showing them 10 very specific ways to draw a "Dog" (e.g., only drawing the ears). Then, see if a third student can guess the "Dog" based only on the ears.
+
 
 ## Activity on what is PCA doing
 
