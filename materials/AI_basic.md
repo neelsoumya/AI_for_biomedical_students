@@ -33,6 +33,60 @@
 
 - There are multiple immediate risks that AI poses to us. Bias in AI is one of them and _we_ can fix it.
 
+
+## Activity using Google `QuickDraw`
+
+Google [**Quick, Draw!**](https://quickdraw.withgoogle.com/) is a fantastic tool for introducing artificial intelligence to children because it turns complex concepts like machine learning and neural networks into a game.
+
+
+---
+
+### Activity 1: The Human vs. AI Challenge
+
+**Objective:** Understand that AI doesn't "see" like we do; it recognizes patterns in data.
+
+* **The Setup:** Divide the class into pairs. One student is the "Drawer" and the other is the "Guesser."
+* **The Game:** Give the Drawer a word (e.g., "Owl"). They have 20 seconds to draw it while the Guesser tries to identify it.
+* **The Comparison:** Now, have the Drawer play *Quick, Draw!* using the same word.
+* **Discussion Points:**
+* Who guessed faster? The human or the AI?
+* The AI often guesses correctly before the drawing is finished. Why?
+* **The Concept:** Explain that the AI isn't looking at the final "art." It is tracking the *sequence* of your strokes and comparing them to millions of other drawings of owls it has already "seen."
+
+
+
+---
+
+### Activity 2: Exploring the "Brain" (Neural Networks)
+
+**Objective:** Learn how a computer connects visual patterns to labels.
+
+* **The Activity:** After students play a round, click on one of their drawings to see the "Neural Network's" perspective. Scroll down to see what other objects the AI thought the drawing looked like (e.g., "I thought it was a circle, or a wheel...").
+* **The Lesson:** Explain that AI uses a "Neural Network," which works like a series of filters. Each layer looks for something specific: lines, then curves, then shapes, and finally, a "Cat."
+
+---
+
+### Activity 3: The "World Museum" & Data Bias
+
+**Objective:** Understand that an AI is only as "smart" as the data it is fed.
+
+* **The Activity:** Visit the [Quick, Draw! Dataset](https://quickdraw.withgoogle.com/data). Search for a common object like "Bread."
+* **The Discovery:** Show the students how people from different countries draw "Bread." In some countries, it might be a loaf; in others, a baguette or a flatbread.
+* **The Challenge:** If we only showed the AI drawings of baguettes, would it recognize a piece of toast?
+* **The Concept:** This teaches **Data Bias**. If the data used to train the AI is limited, the AI will be limited (and potentially unfair) in its results.
+
+---
+
+### How it Works: Behind the Scenes
+
+To help the students visualize how the "guessing" actually happens, you can use this interactive simulation to show how a simple network processes information.
+
+### Teacher Tips for Implementation
+
+1. **Iterative Learning:** Encourage students to try drawing the same object three times. Ask them: "Did you change your drawing style to help the AI understand better?" This introduces the idea of **Prompt Engineering**.
+2. **The "Failure" Discussion:** When the AI fails, ask why. Is the drawing too messy, or has the AI just not seen enough examples of that specific style?
+3. **No Tech Version:** If computers are limited, have one student "train" another by showing them 10 very specific ways to draw a "Dog" (e.g., only drawing the ears). Then, see if a third student can guess the "Dog" based only on the ears.
+
 ## Activity on what is PCA doing
 
 - [Activity](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data)
