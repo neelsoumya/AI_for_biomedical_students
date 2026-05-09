@@ -39,6 +39,8 @@
 
 - [🎮🛠️ Animation of an artificial neural network](https://teaching-neural-network-animation.streamlit.app/)
 
+- [Code](../code/animation_streamlit.py)
+
 
 ## 🎮🛠️ Activity using Google `QuickDraw`
 
@@ -94,7 +96,7 @@ To help the students visualize how the "guessing" actually happens, you can use 
 3. **No Tech Version:** If computers are limited, have one student "train" another by showing them 10 very specific ways to draw a "Dog" (e.g., only drawing the ears). Then, see if a third student can guess the "Dog" based only on the ears.
 
 
-## Activity on what is PCA doing
+## 🎮 Activity on what is PCA doing
 
-- [Activity](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data)
+- [🎮 Activity](https://cambiotraining.github.io/ml-unsupervised/materials/walkthrough.html#projection-of-3d-data)
 
