@@ -33,14 +33,14 @@
 
 - There are multiple immediate risks that AI poses to us. Bias in AI is one of them and _we_ can fix it.
 
-## Understanding how neural networks work
+## 🎮🛠️ Understanding how neural networks work
 
 - Recall the [basics of how a biological neural network works](https://ncase.me/neurons/)
 
 - [🎮🛠️ Animation of an artificial neural network](https://teaching-neural-network-animation.streamlit.app/)
 
 
-## Activity using Google `QuickDraw`
+## 🎮🛠️ Activity using Google `QuickDraw`
 
 Google [**Quick, Draw!**](https://quickdraw.withgoogle.com/) is a fantastic tool for introducing artificial intelligence to children because it turns complex concepts like machine learning and neural networks into a game.
 
