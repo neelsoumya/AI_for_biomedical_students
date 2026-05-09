@@ -35,7 +35,10 @@
 
 ## Understanding how neural networks work
 
-- [Animation](https://teaching-neural-network-animation.streamlit.app/)
+- Recall the [basics of how a biological neural network works](https://ncase.me/neurons/)
+
+- [🎮🛠️ Animation of an artificial neural network](https://teaching-neural-network-animation.streamlit.app/)
+
 
 ## Activity using Google `QuickDraw`
 
