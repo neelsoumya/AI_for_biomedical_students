@@ -46,6 +46,7 @@ Course content and materials can be found in the following files:
 
 - [Coding and visualization in Google Colab for beginners and lowcode (ipywidgets,streamlit and superintelligence task)](materials/colab.md)
 - [Exercises and activities in Google Colab: hunting for the source of an epidemic](materials/scavenger_hunt.md)
+- [Solving puzzles and creative problem solving using AI](https://neelsoumya.github.io/science_blog_fun/egg_throw.html). Also ask students to solve problems in their village using generative AI. 
 
 🧩 No code tools
 
